@@ -15,8 +15,8 @@
     "passcode": "1729",
     "description": "Based on the Research Paper: Existence of Higher Extremal Kähler Metrics on a Minimal Ruled Surface - Rajas Sandeep Sompurkar (Bull. Sci. Math., 2023)",
     "part": "Part 1",
-    "recording": "",
-    "notes": "",
+    "recording": "https://youtu.be/Tl-m3pBgoKA",
+    "notes": "/notes/Talk_1_Topo_Geo_IIIT_Delhi_Rajas.pdf",
     "abstract": "In this introductory talk we will briefly review the theory of complex manifolds and almost complex structures with a few standard examples. We will then introduce the notion of a Kähler manifold and see the relevance and importance of this notion. Things like the Chern connection on a compact Kähler manifold and the resultant notion of curvature will be explained briefly with the relevant mathematical expressions. Most notably we will discuss about the Ricci and scalar curvatures and the related notion of the first Chern class of a compact Kähler manifold. The notation and conventions for the rest of the series of talks will be set in this talk.",
     "about": "Rajas Sandeep Sompurkar completed his Ph.D. in Kähler Geometry and Geometric Analysis in November 2024 at the Indian Institute of Science (IISc), Bengaluru, under the guidance of Prof. Vamsi Pritham Pingali and Prof. Ved V. Datar. Since February 2025, he has been working as a Postdoctoral Fellow at the Indian Institute of Science Education and Research (IISER) Pune, mentored by Prof. Diganta Borah. His research focuses on canonical Kähler metrics on compact Kähler manifolds—such as Calabi’s extremal Kähler metrics, constant scalar curvature Kähler (cscK) metrics, and Kähler-Einstein metrics—and the associated Kähler geometric partial differential equations (PDEs) that naturally arise from the study of these metrics. For instance, the study of Kähler-Einstein metrics is directly linked to the complex Monge-Ampère equation."
   },

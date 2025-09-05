@@ -34,8 +34,8 @@
     "passcode": "1729",
     "description": "Based on the Research Paper: Existence of Higher Extremal Kähler Metrics on a Minimal Ruled Surface - Rajas Sandeep Sompurkar (Bull. Sci. Math., 2023)",
     "part": "Part 2",
-    "recording": "",
-    "notes": "",
+    "recording": "https://youtu.be/vFPCeG5LnXE",
+    "notes": "/notes/Talk_2_Topo_Geo_IIIT_Delhi_Rajas.pdf",
     "abstract": "In this talk we will see the definition of a holomorphic vector bundle on a compact Kähler manifold and we will also see some of the properties of it. For the purpose of this series of talks we would be mostly interested in holomorphic line bundles (which are just rank one holomorphic vector bundles), but we will still see some standard examples like the holomorphic tangent and cotangent bundles and most importantly for us the canonical and anticanonical line bundles associated to any compact Kähler manifold. The notions of Ricci and scalar curvature for a compact Kähler manifold introduced in the previous talk will be reformulated here in terms of the curvature of the anticanonical line bundle."
   },
   {

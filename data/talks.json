@@ -56,7 +56,7 @@
     "passcode": "1729",
     "description": "Based on the Research Paper: Existence of Higher Extremal Kähler Metrics on a Minimal Ruled Surface - Rajas Sandeep Sompurkar (Bull. Sci. Math., 2023)",
     "part": "Part 3",
-    "recording": "",
+    "recording": "https://youtu.be/zq_u33rxPmg",
     "notes": "/notes/Talk_3_Topo_Geo_IIIT_Delhi_Rajas.pdf",
     "abstract": "In this final talk our goal is to state the main results of the above mentioned research work. We will discuss about the various notions of canonical Kähler metrics on a compact Kähler manifold. These are roughly speaking Kähler metrics that satisfy some special curvature properties, and the three well-known and well-studied notions of canonical Kähler metrics are Kähler-Einstein metrics, constant scalar curvature Kähler (cscK) metrics and Calabi’s extremal Kähler metrics. We will define motivated by analogy the notions of higher cscK and higher extremal Kähler metrics introduced by Pingali, which are the main objects of study in our research work. We will give a brief description of the momentum construction method of Hwang-Singer which is used in our problem of finding explicit examples of higher extremal Kähler metrics. We will set this problem in its correct context and provide the relevant references for the same."
   },

@@ -16,7 +16,7 @@
         "description": "This course explores the fascinating interplay between Poisson geometry, Hamiltonian mechanics, and numerical integration methods. We will develop tools to construct numerical integrators for Hamiltonian dynamical systems on Poisson manifolds.",
         "part": "Part 1",
         "recording": "https://youtu.be/rbCBmqyfnqA",
-        "notes": "notes/Oscar-Talk-1-Invariant_theory-part-1.pdf",
+        "notes": "/notes/Oscar-Talk-1-Invariant_theory-part-1.pdf",
         "abstract": "We define Poisson manifolds and review the notions we need for this lecture : Hamiltonian vector fields, first integrals, Casimir functions, symplectic foliation... The end of this first lecture is devoted to explain why traditional numerical tools do not straightforwardly apply to Hamiltonian systems on Poisson manifolds.",
         "about": "Oscar Cosserat is a postdoctoral researcher at the Göttingen Mathematisches Institut, in Germany. He received his PhD in 2023 from the University of La Rochelle, France. His research focuses on the interplay between theoretical mechanics, numerical analysis and differential geometry."
     },
@@ -36,8 +36,8 @@
         "passcode": "1729",
         "description": "This course explores the fascinating interplay between Poisson geometry, Hamiltonian mechanics, and numerical integration methods. We will develop tools to construct numerical integrators for Hamiltonian dynamical systems on Poisson manifolds.",
         "part": "Part 2",
-        "recording": "",
-        "notes": "",
+        "recording": "https://youtu.be/G3U1wuX4Reg",
+        "notes": "/notes/Oscar-Talk-2-Invariant_theory-part-2.pdf",
         "abstract": "We start by defining groupoids and relate them to Poisson manifolds through the concept of symplectic groupoid. Geometrical tools such as Lagrangian bisections will be defined and explained. In the last part of this session, we introduce so-called \"bi-realisations\". Those are local forms of symplectic groupoids. On bi-realisations, we will explain how a Hamilton-Jacobi allows to approximate Hamiltonian dynamics on Poisson manifolds."
     },
     {

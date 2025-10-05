@@ -57,7 +57,7 @@
         "description": "This course explores the fascinating interplay between Poisson geometry, Hamiltonian mechanics, and numerical integration methods. We will develop tools to construct numerical integrators for Hamiltonian dynamical systems on Poisson manifolds.",
         "part": "Part 3",
         "recording": "https://youtu.be/XLH5MmQVLqM",
-        "notes": "",
+        "notes": "/notes/Oscar-Talk-3-Invariant_theory-part-3.pdf",
         "abstract": "To finish, we will introduce pre-Lie algebras to solve Hamilton-Jacobi equation at arbitrary order and obtain Poisson integrators discretising Hamiltonian dynamics in that way. Geometric properties will be gathered and explained. This last session contains numerical simulations on concrete examples such as Lotka-Volterra systems and rigid body dynamics. To conclude, we will summarize the results of this geometric approach to numerical analysis and give several perspectives."
     }
 ]

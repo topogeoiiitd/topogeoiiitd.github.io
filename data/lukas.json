@@ -15,8 +15,8 @@
         "passcode": "1729",
         "description": "This lecture series explores the deep connections between spin geometry and scalar curvature rigidity phenomena. We will develop the foundational tools of Dirac operators and their applications to understanding geometric constraints on Riemannian manifolds.",
         "part": "Part 1",
-        "recording": "",
-        "notes": "",
+        "recording": "https://youtu.be/0GIegcgr8Lo",
+        "notes": "/notes/Lukas-Lecture_Notes-1.pdf",
         "abstract": "We will define Clifford algebras, Clifford bundles and Dirac bundles. Every Dirac bundle carries an associated Dirac operator and we will prove the Weitzenböck formula in this general setup, which is one of the most important tools in spin geometry.",
         "about": "Lukas Schönlinner is a PhD student of Bernhard Hanke at the University of Augsburg. His research interests includes scalar curvature geometry and spin geometry.",
         "references": [
@@ -43,7 +43,12 @@
             {
                 "type": "script",
                 "citation": "Christian Bär: Spin Geometry (2011)",
-                "url": "https://www.math.uni-potsdam.de/professuren/geometrie/lehre/lehrmaterialien/"
+                "url": "https://www.math.uni-potsdam.de/fileadmin/user_upload/Prof-Geometrie/Dokumente/Lehre/Veranstaltungen/SS11/spingeo.pdf"
+            },
+            {
+                "type": "script",
+                "citation": "Bernhard Hanke: Introduction to Spin Geometry (2024)",
+                "url": "/notes/Rome_Lectures.pdf"
             }
         ]
     },

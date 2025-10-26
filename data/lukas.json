@@ -68,7 +68,7 @@
         "description": "This lecture series explores the deep connections between spin geometry and scalar curvature rigidity phenomena. We will develop the foundational tools of Dirac operators and their applications to understanding geometric constraints on Riemannian manifolds.",
         "part": "Part 2",
         "recording": "https://youtu.be/B_2qdW-IGFI",
-        "notes": "/notes/Lukas-Lecture_Notes-1.pdf",
+        "notes": "/notes/Lukas-Lecture_Notes-2.pdf",
         "abstract": "In this talk, we will introduce the spin groups and discuss the properties necessary to define spinable manifolds. We will then associate a canonical connection, the so-called spin connection, with every spin manifold $M$. This connection induces a Dirac bundle structure on $M$. The associated Dirac operator satisfies the Schrödinger-Lichnerowicz formula,  a special case of the Weitzenböck formula. Additionally, we will discuss the Atiyah-Singer index theorem, which links the index of the Dirac operator to topological properties of the manifold. These equations are the key features of spin geometry that we will exploit later."
     },
     {
@@ -86,8 +86,8 @@
         "passcode": "1729",
         "description": "This lecture series explores the deep connections between spin geometry and scalar curvature rigidity phenomena. We will develop the foundational tools of Dirac operators and their applications to understanding geometric constraints on Riemannian manifolds.",
         "part": "Part 3",
-        "recording": "",
-        "notes": "",
+        "recording": "https://youtu.be/Cgt6_X9mCvo",
+        "notes": "/notes/Lukas-Lecture_Notes-3.pdf",
         "abstract": "The theorem of Llarull is a famous rigidity result in scalar curvature which states the following: Let $(M,g)$ be a closed connected $n$-dimensional smooth Riemannian spin manifold with $n\\geq2$ even and $\\mathrm{scal}_g \\geq n(n-1)$. If $f\\colon M\\to S^n$ is a smooth 1-Lipschitz map of non-zero degree then $f$ is a Riemannian isometry.\n\nWe will discuss a generalization of this theorem, which states that it is sufficient to assume that $g$ is a metric of Sobolev regularity $W^{1,p}$ with $p> n$ and that $f$ is merely 1-Lipschitz instead of smooth.\n\nThis is joint work with Simone Cecchini, Bernhard Hanke, and Thomas Schick."
     },
     {

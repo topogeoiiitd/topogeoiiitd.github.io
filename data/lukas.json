@@ -106,7 +106,7 @@
         "description": "This lecture series explores the deep connections between spin geometry and scalar curvature rigidity phenomena. We will develop the foundational tools of Dirac operators and their applications to understanding geometric constraints on Riemannian manifolds.",
         "part": "Part 4",
         "recording": "https://youtu.be/SfTnLzDxaqA",
-        "notes": "",
+        "notes": "/notes/Lukas-Lecture_Notes-4.pdf",
         "abstract": "In this talk, we will discuss another generalization of Llarull's theorem in even dimensions where we allow cone-like singularities in the domain. To do so, we will discuss an abstract functional analytic setup that enables us to show that the Dirac operator on these singular spaces is Fredholm. Moreover, we will apply an index formula of Chou together with a deformation argument to show that the index is non-zero.\n\nThis is joint work with Simone Cecchini, Bernhard Hanke, and Thomas Schick."
     }
 ]

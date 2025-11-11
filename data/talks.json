@@ -263,7 +263,7 @@
     "description": "This lecture series explores the deep connections between spin geometry and scalar curvature rigidity phenomena. We will develop the foundational tools of Dirac operators and their applications to understanding geometric constraints on Riemannian manifolds.",
     "part": "Part 4",
     "recording": "https://youtu.be/SfTnLzDxaqA",
-    "notes": "",
+    "notes": "/notes/Lukas-Lecture_Notes-4.pdf",
     "abstract": "In this talk, we will discuss another generalization of Llarull's theorem in even dimensions where we allow cone-like singularities in the domain. To do so, we will discuss an abstract functional analytic setup that enables us to show that the Dirac operator on these singular spaces is Fredholm. Moreover, we will apply an index formula of Chou together with a deformation argument to show that the index is non-zero.\n\nThis is joint work with Simone Cecchini, Bernhard Hanke, and Thomas Schick."
   },
   
@@ -289,7 +289,7 @@
     "passcode": "1729",
     "description": "This course provides an illustrative introduction to coarse geometry and progresses toward presenting currently open research problems related to the computation of large scale invariants, particularly through the framework of topological bornological spaces. From Coarse Geometry to Cohomology and Stone Spaces.",
     "part": "Part 1",
-    "recording": "",
+    "recording": "https://youtu.be/27b_YIrmfkQ",
     "notes": "",
     "abstract": "We review, through examples, the foundational philosophy of Geometric Group Theory, where each group $G$ with a finite generating set $S$ is associated with a metric space $(G, dS)$, translating algebraic properties of the group into geometric features of the space. Although this assignment initially depends on the choice of $S$, such dependence vanishes when viewing $(G, dS)$ \"from infinitely far away\". This motivates the introduction of coarse structures.",
     "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces.",

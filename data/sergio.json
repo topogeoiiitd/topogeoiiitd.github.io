@@ -79,7 +79,7 @@
     "passcode": "1729",
     "description": "This course provides an illustrative introduction to coarse geometry and progresses toward presenting currently open research problems related to the computation of large scale invariants, particularly through the framework of topological bornological spaces. From Coarse Geometry to Cohomology and Stone Spaces.",
     "part": "Part 2",
-    "recording": "",
+    "recording": "https://youtu.be/-EvZ0udl1XE",
     "notes": "",
     "abstract": "The coarse cohomology $HX^*(X)$ of a space $X$ is introduced as a functor from the coarse category, and its coarse invariance is discussed. We then particularize to metric spaces and study a few examples."
   },

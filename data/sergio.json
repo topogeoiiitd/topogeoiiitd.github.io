@@ -22,7 +22,7 @@
     "description": "This course provides an illustrative introduction to coarse geometry and progresses toward presenting currently open research problems related to the computation of large scale invariants, particularly through the framework of topological bornological spaces. From Coarse Geometry to Cohomology and Stone Spaces.",
     "part": "Part 1",
     "recording": "https://youtu.be/27b_YIrmfkQ",
-    "notes": "",
+    "notes": "/notes/Sergio-Lecture_Notes-1.pdf",
     "abstract": "We review, through examples, the foundational philosophy of Geometric Group Theory, where each group $G$ with a finite generating set $S$ is associated with a metric space $(G, dS)$, translating algebraic properties of the group into geometric features of the space. Although this assignment initially depends on the choice of $S$, such dependence vanishes when viewing $(G, dS)$ \"from infinitely far away\". This motivates the introduction of coarse structures.",
     "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces.",
     "references": [
@@ -80,7 +80,7 @@
     "description": "This course provides an illustrative introduction to coarse geometry and progresses toward presenting currently open research problems related to the computation of large scale invariants, particularly through the framework of topological bornological spaces. From Coarse Geometry to Cohomology and Stone Spaces.",
     "part": "Part 2",
     "recording": "https://youtu.be/-EvZ0udl1XE",
-    "notes": "",
+    "notes": "/notes/Sergio-Lecture_Notes-2.pdf",
     "abstract": "The coarse cohomology $HX^*(X)$ of a space $X$ is introduced as a functor from the coarse category, and its coarse invariance is discussed. We then particularize to metric spaces and study a few examples."
   },
   {

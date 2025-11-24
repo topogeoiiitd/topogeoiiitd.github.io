@@ -104,8 +104,8 @@
     "passcode": "1729",
     "description": "This course provides an illustrative introduction to coarse geometry and progresses toward presenting currently open research problems related to the computation of large scale invariants, particularly through the framework of topological bornological spaces. From Coarse Geometry to Cohomology and Stone Spaces.",
     "part": "Part 3",
-    "recording": "",
-    "notes": "",
+    "recording": "https://youtu.be/frOVFgcmhzg",
+    "notes": "/notes/Sergio-Lecture_Notes-3.pdf",
     "abstract": "We refine the structure of $HX^*(X)$, enhancing it to an algebra by endowing it with a product. Much like the cup product [3, §3.2] allows for a finer distinction between topological spaces, it is natural to seek products in coarse cohomology that sharpen the information it provides. A first strategy is to adapt the cup product to this context, but the resulting product in coarse cohomology turns out to be trivial. However, not all is lost: in such cases, one can define Massey triple products. In this session, we will introduce a closely related idea: the Roe product in coarse cohomology [5, §2.4]. This procedure can be abstracted to an algebraic setting, whose potential will later be exploited again."
   },
   {

@@ -129,8 +129,8 @@
     "passcode": "1729",
     "description": "This course provides an illustrative introduction to coarse geometry and progresses toward presenting currently open research problems related to the computation of large scale invariants, particularly through the framework of topological bornological spaces. From Coarse Geometry to Cohomology and Stone Spaces.",
     "part": "Part 4",
-    "recording": "",
-    "notes": "",
+    "recording": "https://youtu.be/ou2FixGrJrs",
+    "notes": "/notes/Sergio-Lecture_Notes-4.pdf",
     "abstract": "The category $\\mathrm{TopBorn}$ of topological bornological spaces is defined, as in [2, §7.1.1]. We propose an invariant $HB^*$ on these spaces, which we call bornological cohomology, and show that it can be determined from the Alexander-Spanier cohomology at infinity. We compute several examples and enrich $HB^*$ with a product, endowing it with the structure of a differential graded algebra."
   },
   {
@@ -138,7 +138,7 @@
     "title": "Low degree cohomology, extension spaces and boundaries at infinity. Open problems",
     "speaker": "Sergio Romero Alba",
     "date": "2025-12-03",
-    "time": "17:00 IST",
+    "time": "15:30 IST",
     "series": "Topological and Homological Tools for the Study of Spaces from Infinitely Far Away",
     "affiliation": "Georg-August-Universität Göttingen & University of Málaga",
     "seriesDates": [

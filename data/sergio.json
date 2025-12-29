@@ -154,8 +154,8 @@
     "passcode": "1729",
     "description": "This course provides an illustrative introduction to coarse geometry and progresses toward presenting currently open research problems related to the computation of large scale invariants, particularly through the framework of topological bornological spaces. From Coarse Geometry to Cohomology and Stone Spaces.",
     "part": "Part 5",
-    "recording": "",
-    "notes": "",
+    "recording": "https://youtu.be/HwejnPLFj8w",
+    "notes": "/notes/Sergio-Lecture_Notes-5.pdf",
     "abstract": "It is well known that the degree-zero singular homology of a topological space is determined by its path-connected components. Similarly, degree-zero Alexander-Spanier cohomology can be computed from its connected components. We ask whether, for a topological bornological space $X$, there exists a similar connection between $HB^{1}(X)$ and the ``components at infinity of $X$''. \n\nThis question naturally leads us to give meaning to notions such as rays in $X$, (path-)connected components at infinity, and ultimately to consider compactifications of $X$. After addressing this question, we generalize the tools involved by studying certain extensions of $X$ whose boundaries at infinity are Stone spaces [4], which can therefore be treated dually as topological spaces or as Boolean algebras (this is recent work in progress). \n\nWe will conclude the course by reviewing some questions that remain open."
   }
 ]

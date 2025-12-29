@@ -422,25 +422,25 @@
     "passcode": "1729",
     "description": "This course provides an illustrative introduction to coarse geometry and progresses toward presenting currently open research problems related to the computation of large scale invariants, particularly through the framework of topological bornological spaces. From Coarse Geometry to Cohomology and Stone Spaces.",
     "part": "Part 5",
-    "recording": "",
-    "notes": "",
+    "recording": "https://youtu.be/HwejnPLFj8w",
+    "notes": "/notes/Sergio-Lecture_Notes-5.pdf",
     "abstract": "It is well known that the degree-zero singular homology of a topological space is determined by its path-connected components. Similarly, degree-zero Alexander-Spanier cohomology can be computed from its connected components. We ask whether, for a topological bornological space $X$, there exists a similar connection between $HB^{1}(X)$ and the ``components at infinity of $X$''. \n\nThis question naturally leads us to give meaning to notions such as rays in $X$, (path-)connected components at infinity, and ultimately to consider compactifications of $X$. After addressing this question, we generalize the tools involved by studying certain extensions of $X$ whose boundaries at infinity are Stone spaces [4], which can therefore be treated dually as topological spaces or as Boolean algebras (this is recent work in progress). \n\nWe will conclude the course by reviewing some questions that remain open."
   },
-
+  
   {
     "id": "SS-1",
     "title": "Foundations and Basic Examples",
     "speaker": "Sandip Samanta",
     "affiliation": "IISER Kolkata",
     "mail": "ss18ip021@iiserkol.ac.in",
-    "date": "2025-12-03",
+    "date": "2026-01-13",
     "time": "17:00 IST",
     "series": "On The Groups of Self-Homotopy Equivalences",
     "seriesDates": [
-      "10 Dec",
-      "17 Dec",
-      "24 Dec",
-      "31 Dec"
+      "13 January",
+      "20 January",
+      "27 January",
+      "3 February"
     ],
     "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
     "zoomLink": "",
@@ -472,14 +472,14 @@
     "id": "SS-2",
     "title": "Some Computation",
     "speaker": "Sandip Samanta",
-    "date": "2025-12-10",
+    "date": "2026-01-20",
     "time": "17:00 IST",
     "series": "On The Groups of Self-Homotopy Equivalences",
     "seriesDates": [
-      "10 Dec",
-      "17 Dec",
-      "24 Dec",
-      "31 Dec"
+      "13 January",
+      "20 January",
+      "27 January",
+      "3 February"
     ],
     "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
     "zoomLink": "",
@@ -496,14 +496,14 @@
     "id": "SS-3",
     "title": "Algebraic Connection and Localization",
     "speaker": "Sandip Samanta",
-    "date": "2025-12-17",
+    "date": "2026-01-27",
     "time": "17:00 IST",
     "series": "On The Groups of Self-Homotopy Equivalences",
     "seriesDates": [
-      "10 Dec",
-      "17 Dec",
-      "24 Dec",
-      "31 Dec"
+      "13 January",
+      "20 January",
+      "27 January",
+      "3 February"
     ],
     "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
     "zoomLink": "",
@@ -513,21 +513,21 @@
     "part": "Part 3",
     "recording": "",
     "notes": "",
-    "abstract": "Here we will briefly see the ingredients of rational homotopy theory, like rationalization of spaces, Sullivan (minimal) models, LS category, etc, and compute some basic examples . Finally, we will relate these to our case of self-homotopy equivalences, like how $\\mathcal{E}(X)$ and $\\mathcal{E}(X_\\mathcal{P})$ are related, and some other results.",
+    "abstract": "Here we will briefly see the ingredients of rational homotopy theory, like rationalization of spaces, Sullivan (minimal) models, LS category, etc, and compute some basic examples. Finally, we will relate these to our case of self-homotopy equivalences, like how $\\mathcal{E}(X)$ and $\\mathcal{E}(X_\\mathcal{P})$ are related, and some other results.",
     "about": "Sandip Samanta is in the final stages of his PhD under the supervision of Prof. Somnath Basu at IISER Kolkata. His primary research interests are in algebraic topology, with a particular focus on homotopy theory. He also has keen interests in differential geometry and various aspects of combinatorics."
   },
   {
     "id": "SS-4",
     "title": "Applications and Open Problems",
     "speaker": "Sandip Samanta",
-    "date": "2025-12-24",
+    "date": "2026-02-03",
     "time": "17:00 IST",
     "series": "On The Groups of Self-Homotopy Equivalences",
     "seriesDates": [
-      "10 Dec",
-      "17 Dec",
-      "24 Dec",
-      "31 Dec"
+      "13 January",
+      "20 January",
+      "27 January",
+      "3 February"
     ],
     "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
     "zoomLink": "",
@@ -537,7 +537,7 @@
     "part": "Part 4",
     "recording": "",
     "notes": "",
-    "abstract": "We highlight significant applications of the study of self-homotopy equivalence groups, including the classification of Hurewicz fibrations over the circle, the structure of homotopy classes of (homotopy associative) $H$-space multiplications, and connections between self-homotopy equivalences and homeomorphisms. The survey concludes with open questions concerning the characterization and computation of $\\mathcal{E}(X)$—such as determining conditions for finite generation or presentation, explicit calculations for spaces like $\\mathbb{H}P^n$ (with $n>2$), simply connected rank $2$ $H$-spaces, compact Lie groups, and Kähler manifolds—along with the exploration of relationships between key subgroups and the realization problem for groups arising as self-homotopy equivalence groups.",
+    "abstract": "We highlight significant applications of the study of self-homotopy equivalence groups, including the classification of Hurewicz fibrations over the circle, the structure of homotopy classes of (homotopy associative) $H$-space multiplications, and connections between self-homotopy equivalences and homeomorphisms. The survey concludes with open questions concerning the characterization and computation of $\\mathcal{E}(X)$.",
     "about": "Sandip Samanta is in the final stages of his PhD under the supervision of Prof. Somnath Basu at IISER Kolkata. His primary research interests are in algebraic topology, with a particular focus on homotopy theory. He also has keen interests in differential geometry and various aspects of combinatorics."
   }
 ]

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">Lecture Series - Topology and Geometry Seminar - IIIT Delhi</title>
+    <title id="page-title">Invariant theory of Hamiltonian mechanics and related numerical analysis - Topology and Geometry Seminar</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png">
@@ -28,6 +28,20 @@
             }
         }
     </style>
+
+    <meta name="description" content="This course explores the fascinating interplay between Poisson geometry, Hamiltonian mechanics, and numerical integration methods. We will develop tools to…">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis/">
+    <link rel="alternate" type="application/rss+xml" title="Topology and Geometry Seminar feed" href="/feed.xml">
+    <link rel="alternate" type="text/calendar" title="Topology and Geometry Seminar calendar" href="/calendar.ics">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Topology and Geometry Seminar">
+    <meta property="og:title" content="Invariant theory of Hamiltonian mechanics and related numerical analysis - Topology and Geometry Seminar">
+    <meta property="og:description" content="This course explores the fascinating interplay between Poisson geometry, Hamiltonian mechanics, and numerical integration methods. We will develop tools to…">
+    <meta property="og:url" content="https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis/">
+    <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">[{"@context":"https://schema.org","@type":"EducationEvent","name":"Poisson manifolds and Hamiltonian systems","description":"We define Poisson manifolds and review the notions we need for this lecture : Hamiltonian vector fields, first integrals, Casimir functions, symplectic foliation... The end of this first lecture is devoted to explain why traditional numerical tools do not straightforwardly apply to Hamiltonian systems on Poisson manifolds.","startDate":"2025-09-17T17:00:00+05:30","endDate":"2025-09-17T12:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis/"},"performer":{"@type":"Person","name":"Oscar Cosserat","url":"https://cosserat.owlstown.net/","affiliation":{"@type":"Organization","name":"Göttingen Mathematisches Institut"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","name":"Symplectic groupoids and Hamilton-Jacobi equation","description":"We start by defining groupoids and relate them to Poisson manifolds through the concept of symplectic groupoid. Geometrical tools such as Lagrangian bisections will be defined and explained. In the last part of this session, we introduce so-called \"bi-realisations\". Those are local forms of symplectic groupoids. On bi-realisations, we will explain how a Hamilton-Jacobi allows to approximate Hamiltonian dynamics on Poisson manifolds.","startDate":"2025-09-24T17:00:00+05:30","endDate":"2025-09-24T12:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis/"},"performer":{"@type":"Person","name":"Oscar Cosserat","url":"https://cosserat.owlstown.net/","affiliation":{"@type":"Organization","name":"Göttingen Mathematisches Institut"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","name":"Hamiltonian Poisson integrator","description":"To finish, we will introduce pre-Lie algebras to solve Hamilton-Jacobi equation at arbitrary order and obtain Poisson integrators discretising Hamiltonian dynamics in that way. Geometric properties will be gathered and explained. This last session contains numerical simulations on concrete examples such as Lotka-Volterra systems and rigid body dynamics. To conclude, we will summarize the results of this geometric approach to numerical analysis and give several perspectives.","startDate":"2025-10-01T17:00:00+05:30","endDate":"2025-10-01T12:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis/"},"performer":{"@type":"Person","name":"Oscar Cosserat","url":"https://cosserat.owlstown.net/","affiliation":{"@type":"Organization","name":"Göttingen Mathematisches Institut"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}}]</script>
 </head>
 <body class="bg-gray-50 font-sans">
     <!-- Include Navbar -->
@@ -144,33 +158,31 @@
             return urlParams.get('series') || 'kim'; // Default to kim
         }
 
-        // Configuration object to map series directory names to JSON files
+        // This single entry is filled automatically by scripts/build.js.
+        // Adding a new data/*.json file never requires editing this template.
         const seriesConfig = {
-            'knot-theory': {
-                jsonFile: '/data/kim.json',
-                seriesName: 'Knot theory and topology'
-            },
-            'coarse-cohomology': {
-                jsonFile: '/data/sergio.json',
-                seriesName: 'Topological and Homological Tools for the Study of Spaces from Infinitely Far Away'
-            },
-            'spin-geometry-and-scalar-curvature-rigidity': {
-                jsonFile: '/data/lukas.json',
-                seriesName: 'Spin Geometry and Scalar Curvature Rigidity'
-            },
             'invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis': {
                 jsonFile: '/data/oscar.json',
                 seriesName: 'Invariant theory of Hamiltonian mechanics and related numerical analysis'
-            },
-            'existence-of-higher-extremal-kahler-metrics-on-minimal-ruled-surface': {
-                jsonFile: '/data/rajas.json',
-                seriesName: 'Existence of Higher Extremal Kähler Metrics on a Minimal Ruled Surface'
-            },
-            'on-the-groups-of-self-homotopy-equivalences': {
-                jsonFile: '/data/sandip.json',
-                seriesName: 'On The Groups of Self-Homotopy Equivalences'
             }
         };
+
+        // --- Added: shared IST-aware date/time helpers, and a "has this talk concluded?" check ---
+        function parseISTDateTime(dateStr, timeStr) {
+            if (!dateStr || !timeStr) return null;
+            const cleanTime = timeStr.replace(/\s*IST\s*/i, '').trim();
+            const dt = new Date(`${dateStr}T${cleanTime}:00+05:30`);
+            return isNaN(dt.getTime()) ? null : dt;
+        }
+
+        function hasTalkConcluded(talk) {
+            const dt = parseISTDateTime(talk.date, talk.time);
+            // If date/time is missing or malformed, don't hide the Zoom info —
+            // fail safe towards "still show it" rather than silently breaking the card.
+            if (!dt) return false;
+            return dt < new Date();
+        }
+        // --- End added helpers ---
 
         // Load navbar component
         async function loadNavbar() {
@@ -409,6 +421,41 @@
                     const meetingId = talk.meetingId || seriesInfo.meetingId || 'TBA';
                     const passcode = talk.passcode || seriesInfo.passcode || 'TBA';
 
+                    // --- Added: decide whether this specific talk's Zoom info should still be clickable ---
+                    const talkConcluded = hasTalkConcluded(talk);
+
+                    const zoomDetailsHtml = talkConcluded ? `
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h4 class="font-bold mb-2 text-gray-600">
+                                <i class="fas fa-check-circle mr-1"></i> Talk Concluded
+                            </h4>
+                            <p class="text-gray-500 text-sm">
+                                ${talk.recording ? 'This talk has ended — see the recording above.' : 'This talk has ended.'}
+                            </p>
+                        </div>
+                    ` : `
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold mb-2 text-blue-800">Zoom Meeting</h4>
+                            <p class="mb-2">
+                                <span class="font-medium text-gray-700">Link:</span> 
+                                <a href="${zoomLink || '#'}" 
+                                   class="text-blue-600 hover:underline" 
+                                   target="_blank">
+                                   ${zoomLink ? 'Join Meeting' : 'TBA'}
+                                </a>
+                            </p>
+                            <p class="mb-2">
+                                <span class="font-medium text-gray-700">Meeting ID:</span> 
+                                ${meetingId}
+                            </p>
+                            <p>
+                                <span class="font-medium text-gray-700">Passcode:</span> 
+                                ${passcode}
+                            </p>
+                        </div>
+                    `;
+                    // --- End added block ---
+
                     return `
                     <div class="talk-card bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500">
                         <div class="flex flex-col md:flex-row justify-between gap-4">
@@ -428,7 +475,7 @@
                                     <i class="far fa-clock mr-2"></i>
                                     ${talk.time || 'Time TBA'}
                                 </p>
-                                ${formattedAbstract ? `<p class="text-gray-700 mb-4"><strong>Plan:</strong> ${formattedAbstract}</p>` : ''}
+                                ${formattedAbstract ? `<p class="text-gray-700 mb-4"><strong>Abstract:</strong> ${formattedAbstract}</p>` : ''}
                                 ${(talk.recording || talk.notes) ? `
                                     <div class="mt-4 pt-4 border-t border-gray-200">
                                         <h4 class="font-semibold text-gray-800 mb-2">Post-Lecture Resources:</h4>
@@ -454,25 +501,7 @@
                                 ` : ''}
                             </div>
                             <div class="zoom-details w-full md:w-1/3">
-                                <div class="bg-blue-50 p-4 rounded-lg">
-                                    <h4 class="font-bold mb-2 text-blue-800">Zoom Meeting</h4>
-                                    <p class="mb-2">
-                                        <span class="font-medium text-gray-700">Link:</span> 
-                                        <a href="${zoomLink || '#'}" 
-                                           class="text-blue-600 hover:underline" 
-                                           target="_blank">
-                                           ${zoomLink ? 'Join Meeting' : 'TBA'}
-                                        </a>
-                                    </p>
-                                    <p class="mb-2">
-                                        <span class="font-medium text-gray-700">Meeting ID:</span> 
-                                        ${meetingId}
-                                    </p>
-                                    <p>
-                                        <span class="font-medium text-gray-700">Passcode:</span> 
-                                        ${passcode}
-                                    </p>
-                                </div>
+                                ${zoomDetailsHtml}
                             </div>
                         </div>
                     </div>

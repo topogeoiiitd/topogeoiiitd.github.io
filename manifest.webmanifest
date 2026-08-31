@@ -1,0 +1,15 @@
+{
+  "name": "Topology and Geometry Seminar",
+  "short_name": "TopoGeo IIITD",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

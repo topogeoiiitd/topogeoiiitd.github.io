@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">Lecture Series - Topology and Geometry Seminar - IIIT Delhi</title>
+    <title id="page-title">Introduction to Knot Theory - Topology and Geometry Seminar</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png">
@@ -28,6 +28,20 @@
             }
         }
     </style>
+
+    <meta name="description" content="Knot theory plays an important role in low-dimensional topology. Knots and links in Euclidean 3-space provide concrete and diagrammatic ways to encode…">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://topogeoiiitd.github.io/series/knot-theory/">
+    <link rel="alternate" type="application/rss+xml" title="Topology and Geometry Seminar feed" href="/feed.xml">
+    <link rel="alternate" type="text/calendar" title="Topology and Geometry Seminar calendar" href="/calendar.ics">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Topology and Geometry Seminar">
+    <meta property="og:title" content="Introduction to Knot Theory - Topology and Geometry Seminar">
+    <meta property="og:description" content="Knot theory plays an important role in low-dimensional topology. Knots and links in Euclidean 3-space provide concrete and diagrammatic ways to encode…">
+    <meta property="og:url" content="https://topogeoiiitd.github.io/series/knot-theory/">
+    <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">[{"@context":"https://schema.org","@type":"EducationEvent","name":"Basic notions of knot theory","description":"We introduce basic definitions and fundamental results in knot theory. One of the simplest knot invariants is the coloring invariant, which can detect certain nontrivial knots. As a generalization of the coloring invariant, we define an algebraic structure called a quandle.","startDate":"2026-02-10T16:00:00+05:30","endDate":"2026-02-10T11:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/knot-theory/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/knot-theory/"},"performer":{"@type":"Person","name":"Seongjeong Kim","url":"https://www.ktrt-seminars.com/","affiliation":{"@type":"Organization","name":"Jilin University"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","name":"Kauffman bracket and the colored Jones polynomial","description":"We introduce the Kauffman bracket and the Jones polynomial, which arise naturally in quantum topology and statistical mechanics. As an extension of the Jones polynomial, we also introduce the colored Jones polynomial.","startDate":"2026-02-17T16:00:00+05:30","endDate":"2026-02-17T11:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/knot-theory/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/knot-theory/"},"performer":{"@type":"Person","name":"Seongjeong Kim","url":"https://www.ktrt-seminars.com/","affiliation":{"@type":"Organization","name":"Jilin University"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","name":"Knot theory and low-dimensional topology","description":"The goal of this lecture is to explain how closed 3-manifolds can be constructed via surgery along framed links. We briefly review the notion of handle decompositions of manifolds and then describe how framed knots and links give rise to 3-manifolds.","startDate":"2026-02-24T16:00:00+05:30","endDate":"2026-02-24T11:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/knot-theory/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/knot-theory/"},"performer":{"@type":"Person","name":"Seongjeong Kim","url":"https://www.ktrt-seminars.com/","affiliation":{"@type":"Organization","name":"Jilin University"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}}]</script>
 </head>
 <body class="bg-gray-50 font-sans">
     <!-- Include Navbar -->
@@ -144,33 +158,31 @@
             return urlParams.get('series') || 'kim'; // Default to kim
         }
 
-        // Configuration object to map series directory names to JSON files
+        // This single entry is filled automatically by scripts/build.js.
+        // Adding a new data/*.json file never requires editing this template.
         const seriesConfig = {
             'knot-theory': {
                 jsonFile: '/data/kim.json',
-                seriesName: 'Knot theory and topology'
-            },
-            'coarse-cohomology': {
-                jsonFile: '/data/sergio.json',
-                seriesName: 'Topological and Homological Tools for the Study of Spaces from Infinitely Far Away'
-            },
-            'spin-geometry-and-scalar-curvature-rigidity': {
-                jsonFile: '/data/lukas.json',
-                seriesName: 'Spin Geometry and Scalar Curvature Rigidity'
-            },
-            'invariant-theory-of-hamiltonian-mechanics-and-related-numerical-analysis': {
-                jsonFile: '/data/oscar.json',
-                seriesName: 'Invariant theory of Hamiltonian mechanics and related numerical analysis'
-            },
-            'existence-of-higher-extremal-kahler-metrics-on-minimal-ruled-surface': {
-                jsonFile: '/data/rajas.json',
-                seriesName: 'Existence of Higher Extremal Kähler Metrics on a Minimal Ruled Surface'
-            },
-            'on-the-groups-of-self-homotopy-equivalences': {
-                jsonFile: '/data/sandip.json',
-                seriesName: 'On The Groups of Self-Homotopy Equivalences'
+                seriesName: 'Introduction to Knot Theory'
             }
         };
+
+        // --- Added: shared IST-aware date/time helpers, and a "has this talk concluded?" check ---
+        function parseISTDateTime(dateStr, timeStr) {
+            if (!dateStr || !timeStr) return null;
+            const cleanTime = timeStr.replace(/\s*IST\s*/i, '').trim();
+            const dt = new Date(`${dateStr}T${cleanTime}:00+05:30`);
+            return isNaN(dt.getTime()) ? null : dt;
+        }
+
+        function hasTalkConcluded(talk) {
+            const dt = parseISTDateTime(talk.date, talk.time);
+            // If date/time is missing or malformed, don't hide the Zoom info —
+            // fail safe towards "still show it" rather than silently breaking the card.
+            if (!dt) return false;
+            return dt < new Date();
+        }
+        // --- End added helpers ---
 
         // Load navbar component
         async function loadNavbar() {
@@ -409,6 +421,41 @@
                     const meetingId = talk.meetingId || seriesInfo.meetingId || 'TBA';
                     const passcode = talk.passcode || seriesInfo.passcode || 'TBA';
 
+                    // --- Added: decide whether this specific talk's Zoom info should still be clickable ---
+                    const talkConcluded = hasTalkConcluded(talk);
+
+                    const zoomDetailsHtml = talkConcluded ? `
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h4 class="font-bold mb-2 text-gray-600">
+                                <i class="fas fa-check-circle mr-1"></i> Talk Concluded
+                            </h4>
+                            <p class="text-gray-500 text-sm">
+                                ${talk.recording ? 'This talk has ended — see the recording above.' : 'This talk has ended.'}
+                            </p>
+                        </div>
+                    ` : `
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold mb-2 text-blue-800">Zoom Meeting</h4>
+                            <p class="mb-2">
+                                <span class="font-medium text-gray-700">Link:</span> 
+                                <a href="${zoomLink || '#'}" 
+                                   class="text-blue-600 hover:underline" 
+                                   target="_blank">
+                                   ${zoomLink ? 'Join Meeting' : 'TBA'}
+                                </a>
+                            </p>
+                            <p class="mb-2">
+                                <span class="font-medium text-gray-700">Meeting ID:</span> 
+                                ${meetingId}
+                            </p>
+                            <p>
+                                <span class="font-medium text-gray-700">Passcode:</span> 
+                                ${passcode}
+                            </p>
+                        </div>
+                    `;
+                    // --- End added block ---
+
                     return `
                     <div class="talk-card bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500">
                         <div class="flex flex-col md:flex-row justify-between gap-4">
@@ -454,25 +501,7 @@
                                 ` : ''}
                             </div>
                             <div class="zoom-details w-full md:w-1/3">
-                                <div class="bg-blue-50 p-4 rounded-lg">
-                                    <h4 class="font-bold mb-2 text-blue-800">Zoom Meeting</h4>
-                                    <p class="mb-2">
-                                        <span class="font-medium text-gray-700">Link:</span> 
-                                        <a href="${zoomLink || '#'}" 
-                                           class="text-blue-600 hover:underline" 
-                                           target="_blank">
-                                           ${zoomLink ? 'Join Meeting' : 'TBA'}
-                                        </a>
-                                    </p>
-                                    <p class="mb-2">
-                                        <span class="font-medium text-gray-700">Meeting ID:</span> 
-                                        ${meetingId}
-                                    </p>
-                                    <p>
-                                        <span class="font-medium text-gray-700">Passcode:</span> 
-                                        ${passcode}
-                                    </p>
-                                </div>
+                                ${zoomDetailsHtml}
                             </div>
                         </div>
                     </div>

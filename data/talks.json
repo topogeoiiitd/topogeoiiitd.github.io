@@ -22,7 +22,8 @@
     "recording": "https://youtu.be/Tl-m3pBgoKA",
     "notes": "/notes/Talk_1_Topo_Geo_IIIT_Delhi_Rajas.pdf",
     "abstract": "In this introductory talk we will briefly review the theory of complex manifolds and almost complex structures with a few standard examples. We will then introduce the notion of a Kähler manifold and see the relevance and importance of this notion. Things like the Chern connection on a compact Kähler manifold and the resultant notion of curvature will be explained briefly with the relevant mathematical expressions. Most notably we will discuss about the Ricci and scalar curvatures and the related notion of the first Chern class of a compact Kähler manifold. The notation and conventions for the rest of the series of talks will be set in this talk.",
-    "about": "Rajas Sandeep Sompurkar completed his Ph.D. in Kähler Geometry and Geometric Analysis in November 2024 at the Indian Institute of Science (IISc), Bengaluru, under the guidance of Prof. Vamsi Pritham Pingali and Prof. Ved V. Datar. Since February 2025, he has been working as a Postdoctoral Fellow at the Indian Institute of Science Education and Research (IISER) Pune, mentored by Prof. Diganta Borah. His research focuses on canonical Kähler metrics on compact Kähler manifolds—such as Calabi’s extremal Kähler metrics, constant scalar curvature Kähler (cscK) metrics, and Kähler-Einstein metrics—and the associated Kähler geometric partial differential equations (PDEs) that naturally arise from the study of these metrics. For instance, the study of Kähler-Einstein metrics is directly linked to the complex Monge-Ampère equation."
+    "about": "Rajas Sandeep Sompurkar completed his Ph.D. in Kähler Geometry and Geometric Analysis in November 2024 at the Indian Institute of Science (IISc), Bengaluru, under the guidance of Prof. Vamsi Pritham Pingali and Prof. Ved V. Datar. Since February 2025, he has been working as a Postdoctoral Fellow at the Indian Institute of Science Education and Research (IISER) Pune, mentored by Prof. Diganta Borah. His research focuses on canonical Kähler metrics on compact Kähler manifolds—such as Calabi’s extremal Kähler metrics, constant scalar curvature Kähler (cscK) metrics, and Kähler-Einstein metrics—and the associated Kähler geometric partial differential equations (PDEs) that naturally arise from the study of these metrics. For instance, the study of Kähler-Einstein metrics is directly linked to the complex Monge-Ampère equation.",
+    "mail": ""
   },
   {
     "id": "RSS-2",
@@ -40,7 +41,10 @@
     "part": "Part 2",
     "recording": "https://youtu.be/vFPCeG5LnXE",
     "notes": "/notes/Talk_2_Topo_Geo_IIIT_Delhi_Rajas.pdf",
-    "abstract": "In this talk we will see the definition of a holomorphic vector bundle on a compact Kähler manifold and we will also see some of the properties of it. For the purpose of this series of talks we would be mostly interested in holomorphic line bundles (which are just rank one holomorphic vector bundles), but we will still see some standard examples like the holomorphic tangent and cotangent bundles and most importantly for us the canonical and anticanonical line bundles associated to any compact Kähler manifold. The notions of Ricci and scalar curvature for a compact Kähler manifold introduced in the previous talk will be reformulated here in terms of the curvature of the anticanonical line bundle."
+    "abstract": "In this talk we will see the definition of a holomorphic vector bundle on a compact Kähler manifold and we will also see some of the properties of it. For the purpose of this series of talks we would be mostly interested in holomorphic line bundles (which are just rank one holomorphic vector bundles), but we will still see some standard examples like the holomorphic tangent and cotangent bundles and most importantly for us the canonical and anticanonical line bundles associated to any compact Kähler manifold. The notions of Ricci and scalar curvature for a compact Kähler manifold introduced in the previous talk will be reformulated here in terms of the curvature of the anticanonical line bundle.",
+    "affiliation": "IISER Pune",
+    "mail": "",
+    "about": "Rajas Sandeep Sompurkar completed his Ph.D. in Kähler Geometry and Geometric Analysis in November 2024 at the Indian Institute of Science (IISc), Bengaluru, under the guidance of Prof. Vamsi Pritham Pingali and Prof. Ved V. Datar. Since February 2025, he has been working as a Postdoctoral Fellow at the Indian Institute of Science Education and Research (IISER) Pune, mentored by Prof. Diganta Borah. His research focuses on canonical Kähler metrics on compact Kähler manifolds—such as Calabi’s extremal Kähler metrics, constant scalar curvature Kähler (cscK) metrics, and Kähler-Einstein metrics—and the associated Kähler geometric partial differential equations (PDEs) that naturally arise from the study of these metrics. For instance, the study of Kähler-Einstein metrics is directly linked to the complex Monge-Ampère equation."
   },
   {
     "id": "RSS-3",
@@ -58,7 +62,10 @@
     "part": "Part 3",
     "recording": "https://youtu.be/zq_u33rxPmg",
     "notes": "/notes/Talk_3_Topo_Geo_IIIT_Delhi_Rajas.pdf",
-    "abstract": "In this final talk our goal is to state the main results of the above mentioned research work. We will discuss about the various notions of canonical Kähler metrics on a compact Kähler manifold. These are roughly speaking Kähler metrics that satisfy some special curvature properties, and the three well-known and well-studied notions of canonical Kähler metrics are Kähler-Einstein metrics, constant scalar curvature Kähler (cscK) metrics and Calabi’s extremal Kähler metrics. We will define motivated by analogy the notions of higher cscK and higher extremal Kähler metrics introduced by Pingali, which are the main objects of study in our research work. We will give a brief description of the momentum construction method of Hwang-Singer which is used in our problem of finding explicit examples of higher extremal Kähler metrics. We will set this problem in its correct context and provide the relevant references for the same."
+    "abstract": "In this final talk our goal is to state the main results of the above mentioned research work. We will discuss about the various notions of canonical Kähler metrics on a compact Kähler manifold. These are roughly speaking Kähler metrics that satisfy some special curvature properties, and the three well-known and well-studied notions of canonical Kähler metrics are Kähler-Einstein metrics, constant scalar curvature Kähler (cscK) metrics and Calabi’s extremal Kähler metrics. We will define motivated by analogy the notions of higher cscK and higher extremal Kähler metrics introduced by Pingali, which are the main objects of study in our research work. We will give a brief description of the momentum construction method of Hwang-Singer which is used in our problem of finding explicit examples of higher extremal Kähler metrics. We will set this problem in its correct context and provide the relevant references for the same.",
+    "affiliation": "IISER Pune",
+    "mail": "",
+    "about": "Rajas Sandeep Sompurkar completed his Ph.D. in Kähler Geometry and Geometric Analysis in November 2024 at the Indian Institute of Science (IISc), Bengaluru, under the guidance of Prof. Vamsi Pritham Pingali and Prof. Ved V. Datar. Since February 2025, he has been working as a Postdoctoral Fellow at the Indian Institute of Science Education and Research (IISER) Pune, mentored by Prof. Diganta Borah. His research focuses on canonical Kähler metrics on compact Kähler manifolds—such as Calabi’s extremal Kähler metrics, constant scalar curvature Kähler (cscK) metrics, and Kähler-Einstein metrics—and the associated Kähler geometric partial differential equations (PDEs) that naturally arise from the study of these metrics. For instance, the study of Kähler-Einstein metrics is directly linked to the complex Monge-Ampère equation."
   },
   {
     "id": "OC-1",
@@ -83,7 +90,8 @@
     "recording": "https://youtu.be/rbCBmqyfnqA",
     "notes": "/notes/Oscar-Talk-1-Invariant_theory-part-1.pdf",
     "abstract": "We define Poisson manifolds and review the notions we need for this lecture : Hamiltonian vector fields, first integrals, Casimir functions, symplectic foliation... The end of this first lecture is devoted to explain why traditional numerical tools do not straightforwardly apply to Hamiltonian systems on Poisson manifolds.",
-    "about": "Oscar Cosserat is a postdoctoral researcher at the Göttingen Mathematisches Institut, in Germany. He received his PhD in 2023 from the University of La Rochelle, France. His research focuses on the interplay between theoretical mechanics, numerical analysis and differential geometry."
+    "about": "Oscar Cosserat is a postdoctoral researcher at the Göttingen Mathematisches Institut, in Germany. He received his PhD in 2023 from the University of La Rochelle, France. His research focuses on the interplay between theoretical mechanics, numerical analysis and differential geometry.",
+    "mail": ""
   },
   {
     "id": "OC-2",
@@ -107,7 +115,9 @@
     "part": "Part 2",
     "recording": "https://youtu.be/G3U1wuX4Reg",
     "notes": "/notes/Oscar-Talk-2-Invariant_theory-part-2.pdf",
-    "abstract": "We start by defining groupoids and relate them to Poisson manifolds through the concept of symplectic groupoid. Geometrical tools such as Lagrangian bisections will be defined and explained. In the last part of this session, we introduce so-called \"bi-realisations\". Those are local forms of symplectic groupoids. On bi-realisations, we will explain how a Hamilton-Jacobi allows to approximate Hamiltonian dynamics on Poisson manifolds."
+    "abstract": "We start by defining groupoids and relate them to Poisson manifolds through the concept of symplectic groupoid. Geometrical tools such as Lagrangian bisections will be defined and explained. In the last part of this session, we introduce so-called \"bi-realisations\". Those are local forms of symplectic groupoids. On bi-realisations, we will explain how a Hamilton-Jacobi allows to approximate Hamiltonian dynamics on Poisson manifolds.",
+    "mail": "",
+    "about": "Oscar Cosserat is a postdoctoral researcher at the Göttingen Mathematisches Institut, in Germany. He received his PhD in 2023 from the University of La Rochelle, France. His research focuses on the interplay between theoretical mechanics, numerical analysis and differential geometry."
   },
   {
     "id": "OC-3",
@@ -131,7 +141,9 @@
     "part": "Part 3",
     "recording": "https://youtu.be/XLH5MmQVLqM",
     "notes": "/notes/Oscar-Talk-3-Invariant_theory-part-3.pdf",
-    "abstract": "To finish, we will introduce pre-Lie algebras to solve Hamilton-Jacobi equation at arbitrary order and obtain Poisson integrators discretising Hamiltonian dynamics in that way. Geometric properties will be gathered and explained. This last session contains numerical simulations on concrete examples such as Lotka-Volterra systems and rigid body dynamics. To conclude, we will summarize the results of this geometric approach to numerical analysis and give several perspectives."
+    "abstract": "To finish, we will introduce pre-Lie algebras to solve Hamilton-Jacobi equation at arbitrary order and obtain Poisson integrators discretising Hamiltonian dynamics in that way. Geometric properties will be gathered and explained. This last session contains numerical simulations on concrete examples such as Lotka-Volterra systems and rigid body dynamics. To conclude, we will summarize the results of this geometric approach to numerical analysis and give several perspectives.",
+    "mail": "",
+    "about": "Oscar Cosserat is a postdoctoral researcher at the Göttingen Mathematisches Institut, in Germany. He received his PhD in 2023 from the University of La Rochelle, France. His research focuses on the interplay between theoretical mechanics, numerical analysis and differential geometry."
   },
   {
     "id": "LS-1",
@@ -189,7 +201,8 @@
         "citation": "Bernhard Hanke: Introduction to Spin Geometry (2024)",
         "url": "/notes/Rome_Lectures.pdf"
       }
-    ]
+    ],
+    "mail": ""
   },
   {
     "id": "LS-2",
@@ -213,7 +226,10 @@
     "part": "Part 2",
     "recording": "https://youtu.be/B_2qdW-IGFI",
     "notes": "/notes/Lukas-Lecture_Notes-2.pdf",
-    "abstract": "In this talk, we will introduce the spin groups and discuss the properties necessary to define spinable manifolds. We will then associate a canonical connection, the so-called spin connection, with every spin manifold $M$. This connection induces a Dirac bundle structure on $M$. The associated Dirac operator satisfies the Schrödinger-Lichnerowicz formula,  a special case of the Weitzenböck formula. Additionally, we will discuss the Atiyah-Singer index theorem, which links the index of the Dirac operator to topological properties of the manifold. These equations are the key features of spin geometry that we will exploit later."
+    "abstract": "In this talk, we will introduce the spin groups and discuss the properties necessary to define spinable manifolds. We will then associate a canonical connection, the so-called spin connection, with every spin manifold $M$. This connection induces a Dirac bundle structure on $M$. The associated Dirac operator satisfies the Schrödinger-Lichnerowicz formula,  a special case of the Weitzenböck formula. Additionally, we will discuss the Atiyah-Singer index theorem, which links the index of the Dirac operator to topological properties of the manifold. These equations are the key features of spin geometry that we will exploit later.",
+    "personalPage": "https://opc.mfo.de/detail?suggest=1&photo_id=26002",
+    "mail": "",
+    "about": "Lukas Schönlinner is a PhD student of Bernhard Hanke at the University of Augsburg. His research interests includes scalar curvature geometry and spin geometry."
   },
   {
     "id": "LS-3",
@@ -237,7 +253,10 @@
     "part": "Part 3",
     "recording": "https://youtu.be/Cgt6_X9mCvo",
     "notes": "/notes/Lukas-Lecture_Notes-3.pdf",
-    "abstract": "The theorem of Llarull is a famous rigidity result in scalar curvature which states the following: Let $(M,g)$ be a closed connected $n$-dimensional smooth Riemannian spin manifold with $n\\geq2$ even and $\\mathrm{scal}_g \\geq n(n-1)$. If $f\\colon M\\to S^n$ is a smooth 1-Lipschitz map of non-zero degree then $f$ is a Riemannian isometry.\n\nWe will discuss a generalization of this theorem, which states that it is sufficient to assume that $g$ is a metric of Sobolev regularity $W^{1,p}$ with $p> n$ and that $f$ is merely 1-Lipschitz instead of smooth.\n\nThis is joint work with Simone Cecchini, Bernhard Hanke, and Thomas Schick."
+    "abstract": "The theorem of Llarull is a famous rigidity result in scalar curvature which states the following: Let $(M,g)$ be a closed connected $n$-dimensional smooth Riemannian spin manifold with $n\\geq2$ even and $\\mathrm{scal}_g \\geq n(n-1)$. If $f\\colon M\\to S^n$ is a smooth 1-Lipschitz map of non-zero degree then $f$ is a Riemannian isometry.\n\nWe will discuss a generalization of this theorem, which states that it is sufficient to assume that $g$ is a metric of Sobolev regularity $W^{1,p}$ with $p> n$ and that $f$ is merely 1-Lipschitz instead of smooth.\n\nThis is joint work with Simone Cecchini, Bernhard Hanke, and Thomas Schick.",
+    "personalPage": "https://opc.mfo.de/detail?suggest=1&photo_id=26002",
+    "mail": "",
+    "about": "Lukas Schönlinner is a PhD student of Bernhard Hanke at the University of Augsburg. His research interests includes scalar curvature geometry and spin geometry."
   },
   {
     "id": "LS-4",
@@ -261,7 +280,10 @@
     "part": "Part 4",
     "recording": "https://youtu.be/SfTnLzDxaqA",
     "notes": "/notes/Lukas-Lecture_Notes-4.pdf",
-    "abstract": "In this talk, we will discuss another generalization of Llarull's theorem in even dimensions where we allow cone-like singularities in the domain. To do so, we will discuss an abstract functional analytic setup that enables us to show that the Dirac operator on these singular spaces is Fredholm. Moreover, we will apply an index formula of Chou together with a deformation argument to show that the index is non-zero.\n\nThis is joint work with Simone Cecchini, Bernhard Hanke, and Thomas Schick."
+    "abstract": "In this talk, we will discuss another generalization of Llarull's theorem in even dimensions where we allow cone-like singularities in the domain. To do so, we will discuss an abstract functional analytic setup that enables us to show that the Dirac operator on these singular spaces is Fredholm. Moreover, we will apply an index formula of Chou together with a deformation argument to show that the index is non-zero.\n\nThis is joint work with Simone Cecchini, Bernhard Hanke, and Thomas Schick.",
+    "personalPage": "https://opc.mfo.de/detail?suggest=1&photo_id=26002",
+    "mail": "",
+    "about": "Lukas Schönlinner is a PhD student of Bernhard Hanke at the University of Augsburg. His research interests includes scalar curvature geometry and spin geometry."
   },
   {
     "id": "SR-1",
@@ -279,7 +301,7 @@
       "26 Nov",
       "3 Dec"
     ],
-    "seriesLink": "/series/coarse-cohomology",
+    "seriesLink": "/series/coarse-cohomology/",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98868378477?pwd=RxvrbYzNkxdTlKSg7FHEVHAJcEbfXA.1",
     "meetingId": "988 6837 8477",
     "passcode": "1729",
@@ -320,7 +342,8 @@
         "citation": "John Roe: Lectures on Coarse Geometry, AMS, 2003",
         "url": ""
       }
-    ]
+    ],
+    "mail": ""
   },
   {
     "id": "SR-2",
@@ -337,7 +360,7 @@
       "26 Nov",
       "3 Dec"
     ],
-    "seriesLink": "/series/coarse-cohomology",
+    "seriesLink": "/series/coarse-cohomology/",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98868378477?pwd=RxvrbYzNkxdTlKSg7FHEVHAJcEbfXA.1",
     "meetingId": "988 6837 8477",
     "passcode": "1729",
@@ -345,7 +368,10 @@
     "part": "Part 2",
     "recording": "https://youtu.be/-EvZ0udl1XE",
     "notes": "/notes/Sergio-Lecture_Notes-2.pdf",
-    "abstract": "The coarse cohomology $HX^*(X)$ of a space $X$ is introduced as a functor from the coarse category, and its coarse invariance is discussed. We then particularize to metric spaces and study a few examples."
+    "abstract": "The coarse cohomology $HX^*(X)$ of a space $X$ is introduced as a functor from the coarse category, and its coarse invariance is discussed. We then particularize to metric spaces and study a few examples.",
+    "personalPage": "https://www.uma.es/departments/teachers/MUd5YlkrRGtNZitqQ3VPZWZrRWh2QT09/",
+    "mail": "",
+    "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces."
   },
   {
     "id": "SR-3",
@@ -362,7 +388,7 @@
       "26 Nov",
       "3 Dec"
     ],
-    "seriesLink": "/series/coarse-cohomology",
+    "seriesLink": "/series/coarse-cohomology/",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98868378477?pwd=RxvrbYzNkxdTlKSg7FHEVHAJcEbfXA.1",
     "meetingId": "988 6837 8477",
     "passcode": "1729",
@@ -370,7 +396,10 @@
     "part": "Part 3",
     "recording": "https://youtu.be/frOVFgcmhzg",
     "notes": "/notes/Sergio-Lecture_Notes-3.pdf",
-    "abstract": "We refine the structure of $HX^*(X)$, enhancing it to an algebra by endowing it with a product. Much like the cup product [3, §3.2] allows for a finer distinction between topological spaces, it is natural to seek products in coarse cohomology that sharpen the information it provides. A first strategy is to adapt the cup product to this context, but the resulting product in coarse cohomology turns out to be trivial. However, not all is lost: in such cases, one can define Massey triple products. In this session, we will introduce a closely related idea: the Roe product in coarse cohomology [5, §2.4]. This procedure can be abstracted to an algebraic setting, whose potential will later be exploited again."
+    "abstract": "We refine the structure of $HX^*(X)$, enhancing it to an algebra by endowing it with a product. Much like the cup product [3, §3.2] allows for a finer distinction between topological spaces, it is natural to seek products in coarse cohomology that sharpen the information it provides. A first strategy is to adapt the cup product to this context, but the resulting product in coarse cohomology turns out to be trivial. However, not all is lost: in such cases, one can define Massey triple products. In this session, we will introduce a closely related idea: the Roe product in coarse cohomology [5, §2.4]. This procedure can be abstracted to an algebraic setting, whose potential will later be exploited again.",
+    "personalPage": "https://www.uma.es/departments/teachers/MUd5YlkrRGtNZitqQ3VPZWZrRWh2QT09/",
+    "mail": "",
+    "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces."
   },
   {
     "id": "SR-4",
@@ -387,7 +416,7 @@
       "26 Nov",
       "3 Dec"
     ],
-    "seriesLink": "/series/coarse-cohomology",
+    "seriesLink": "/series/coarse-cohomology/",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98868378477?pwd=RxvrbYzNkxdTlKSg7FHEVHAJcEbfXA.1",
     "meetingId": "988 6837 8477",
     "passcode": "1729",
@@ -395,7 +424,10 @@
     "part": "Part 4",
     "recording": "https://youtu.be/ou2FixGrJrs",
     "notes": "/notes/Sergio-Lecture_Notes-4.pdf",
-    "abstract": "The category $\\mathrm{TopBorn}$ of topological bornological spaces is defined, as in [2, §7.1.1]. We propose an invariant $HB^*$ on these spaces, which we call bornological cohomology, and show that it can be determined from the Alexander-Spanier cohomology at infinity. We compute several examples and enrich $HB^*$ with a product, endowing it with the structure of a differential graded algebra."
+    "abstract": "The category $\\mathrm{TopBorn}$ of topological bornological spaces is defined, as in [2, §7.1.1]. We propose an invariant $HB^*$ on these spaces, which we call bornological cohomology, and show that it can be determined from the Alexander-Spanier cohomology at infinity. We compute several examples and enrich $HB^*$ with a product, endowing it with the structure of a differential graded algebra.",
+    "personalPage": "https://www.uma.es/departments/teachers/MUd5YlkrRGtNZitqQ3VPZWZrRWh2QT09/",
+    "mail": "",
+    "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces."
   },
   {
     "id": "SR-5",
@@ -412,7 +444,7 @@
       "26 Nov",
       "3 Dec"
     ],
-    "seriesLink": "/series/coarse-cohomology",
+    "seriesLink": "/series/coarse-cohomology/",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98868378477?pwd=RxvrbYzNkxdTlKSg7FHEVHAJcEbfXA.1",
     "meetingId": "988 6837 8477",
     "passcode": "1729",
@@ -420,7 +452,10 @@
     "part": "Part 5",
     "recording": "https://youtu.be/HwejnPLFj8w",
     "notes": "/notes/Sergio-Lecture_Notes-5.pdf",
-    "abstract": "It is well known that the degree-zero singular homology of a topological space is determined by its path-connected components. Similarly, degree-zero Alexander-Spanier cohomology can be computed from its connected components. We ask whether, for a topological bornological space $X$, there exists a similar connection between $HB^{1}(X)$ and the ``components at infinity of $X$''. \n\nThis question naturally leads us to give meaning to notions such as rays in $X$, (path-)connected components at infinity, and ultimately to consider compactifications of $X$. After addressing this question, we generalize the tools involved by studying certain extensions of $X$ whose boundaries at infinity are Stone spaces [4], which can therefore be treated dually as topological spaces or as Boolean algebras (this is recent work in progress). \n\nWe will conclude the course by reviewing some questions that remain open."
+    "abstract": "It is well known that the degree-zero singular homology of a topological space is determined by its path-connected components. Similarly, degree-zero Alexander-Spanier cohomology can be computed from its connected components. We ask whether, for a topological bornological space $X$, there exists a similar connection between $HB^{1}(X)$ and the ``components at infinity of $X$''. \n\nThis question naturally leads us to give meaning to notions such as rays in $X$, (path-)connected components at infinity, and ultimately to consider compactifications of $X$. After addressing this question, we generalize the tools involved by studying certain extensions of $X$ whose boundaries at infinity are Stone spaces [4], which can therefore be treated dually as topological spaces or as Boolean algebras (this is recent work in progress). \n\nWe will conclude the course by reviewing some questions that remain open.",
+    "personalPage": "https://www.uma.es/departments/teachers/MUd5YlkrRGtNZitqQ3VPZWZrRWh2QT09/",
+    "mail": "",
+    "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces."
   },
   {
     "id": "SS-1",
@@ -437,7 +472,7 @@
       "27 January",
       "3 February"
     ],
-    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
+    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences/",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
     "meetingId": "989 7322 5688",
     "passcode": "1729",
@@ -462,7 +497,7 @@
       "27 January",
       "3 February"
     ],
-    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
+    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences/",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
     "meetingId": "989 7322 5688",
     "passcode": "1729",
@@ -471,7 +506,9 @@
     "recording": "https://youtu.be/0u58WlPFLEI",
     "notes": "/notes/Sandip-Lecture_Notes-2.pdf",
     "abstract": "We survey explicit computations of the group of self-homotopy equivalences $\\mathcal{E}(X)$ for key spaces in homotopy theory. This includes results for pseudo-projective planes, with emphasis on lens spaces, as well as for Moore spaces $M(G, n)$ and twisted Eilenberg-MacLane spaces. We also discuss the structure of $\\mathcal{E}(X)$ for real, complex, and quaternionic projective spaces. Additionally, we present computations of $\\mathcal{E}_H(X)$ for rank one $H$-spaces, specifically $S^1$, $S^3$, $S^7$, $\\mathbb{R}P^3$, $\\mathbb{R}P^7$, and for certain higher-dimensional examples such as $S^3\\times S^7$, $S^3\\times S^3$, $S^7\\times S^7$, $SU(3)$, and $Sp(2)$. These cases illustrate the diversity and depth of self-equivalence groups across notable spaces in topology.",
-    "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics."
+    "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics.",
+    "affiliation": "IISER Kolkata",
+    "mail": "ss18ip021@iiserkol.ac.in"
   },
   {
     "id": "SS-3",
@@ -486,7 +523,7 @@
       "27 January",
       "3 February"
     ],
-    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
+    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences/",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
     "meetingId": "989 7322 5688",
     "passcode": "1729",
@@ -495,7 +532,9 @@
     "recording": "https://youtu.be/IbOxzVgFkWo",
     "notes": "/notes/Sandip-Lecture_Notes-3.pdf",
     "abstract": "Here we will briefly see the ingredients of rational homotopy theory, like rationalization of spaces, Sullivan (minimal) models, LS category, etc, and compute some basic examples. Finally, we will relate these to our case of self-homotopy equivalences, like how $\\mathcal{E}(X)$ and $\\mathcal{E}(X_\\mathcal{P})$ are related, some other results and possible open directions.",
-    "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics."
+    "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics.",
+    "affiliation": "IISER Kolkata",
+    "mail": "ss18ip021@iiserkol.ac.in"
   },
   {
     "id": "SK-1",
@@ -680,7 +719,7 @@
     "personalPage": "https://math.indiana.edu/about/graduate-students/Bilas-Ramyak.html",
     "mail": "rbilas@iu.edu",
     "description": "For a commutative ring \\(A\\), the ring of Witt vectors \\(W(A)\\) has been useful in number theory, algebraic topology, and algebraic K-theory. Classical results of Almkvist, Stienstra, Grayson, and Weibel demonstrate that the characteristic map bridges the ring \\(\\operatorname{End}_0(R)\\) to its \\(t\\)-adic completion \\(W(A)\\), and the nil groups \\(\\operatorname{Nil}_0(A)\\) are modules over \\(W(A)\\). Recently Dotto, Krause, Nikolaus, and Patchkoria (DKNP) gave an algebraic description of Witt vectors for a non-commutative ring \\(R\\). Generalizing this framework to non-commutative \\(R\\) strips away significant algebraic structure: \\(\\operatorname{End}_0(R)\\) is reduced to an abelian group with only an external product, and the foundational arguments about the interaction of Frobenius, Verschiebung, and the pairings rely on the Cayley-Hamilton theorem, which breaks down in the non-commutative setting. This series will introduce these new definitions of non-commutative Witt vectors and explore an alternate approach that recovers their properties from the K-theoretic properties of \\(\\operatorname{End}_0(R)\\).",
-    "about": "Ramyak Bilas is a PhD student with Prof. James F. Davis in the Department of Mathematics at Indiana University Bloomington. He completed his master's degree in mathematics and statistics at the Indian Institute of Science Education and Research (IISER) Kolkata. His research interests include algebraic topology and $k$-theory.",
+    "about": "Ramyak Bilas is a PhD student with Prof. James F. Davis in the Department of Mathematics at Indiana University Bloomington. He completed his master's degree in mathematics and statistics at the Indian Institute of Science Education and Research (IISER) Kolkata. His research interests include algebraic topology and $K$-theory.",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/94481309285?pwd=I2rz68eOY928VlWvRbu10sXWbWsYGa.1",
     "meetingId": "944 8130 9285",
     "passcode": "1729",
@@ -701,10 +740,73 @@
     "personalPage": "https://math.indiana.edu/about/graduate-students/Bilas-Ramyak.html",
     "mail": "rbilas@iu.edu",
     "description": "For a commutative ring \\(A\\), the ring of Witt vectors \\(W(A)\\) has been useful in number theory, algebraic topology, and algebraic K-theory. Classical results of Almkvist, Stienstra, Grayson, and Weibel demonstrate that the characteristic map bridges the ring \\(\\operatorname{End}_0(R)\\) to its \\(t\\)-adic completion \\(W(A)\\), and the nil groups \\(\\operatorname{Nil}_0(A)\\) are modules over \\(W(A)\\). Recently Dotto, Krause, Nikolaus, and Patchkoria (DKNP) gave an algebraic description of Witt vectors for a non-commutative ring \\(R\\). Generalizing this framework to non-commutative \\(R\\) strips away significant algebraic structure: \\(\\operatorname{End}_0(R)\\) is reduced to an abelian group with only an external product, and the foundational arguments about the interaction of Frobenius, Verschiebung, and the pairings rely on the Cayley-Hamilton theorem, which breaks down in the non-commutative setting. This series will introduce these new definitions of non-commutative Witt vectors and explore an alternate approach that recovers their properties from the K-theoretic properties of \\(\\operatorname{End}_0(R)\\).",
-    "about": "Ramyak Bilas is a PhD student with Prof. James F. Davis in the Department of Mathematics at Indiana University Bloomington. He completed his master's degree in mathematics and statistics at the Indian Institute of Science Education and Research (IISER) Kolkata. His research interests include algebraic topology and $k$-theory.",
+    "about": "Ramyak Bilas is a PhD student with Prof. James F. Davis in the Department of Mathematics at Indiana University Bloomington. He completed his master's degree in mathematics and statistics at the Indian Institute of Science Education and Research (IISER) Kolkata. His research interests include algebraic topology and $K$-theory.",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/94481309285?pwd=I2rz68eOY928VlWvRbu10sXWbWsYGa.1",
     "meetingId": "944 8130 9285",
     "passcode": "1729",
     "seriesLink": "/series/non-commutative-witt-vectors-characteristic-map-and-pairing/"
+  },
+  {
+    "id": "RL-1",
+    "title": "Foliations and Singular Foliations",
+    "date": "2026-09-03",
+    "time": "09:00 IST",
+    "part": "Part 1",
+    "abstract": "We will introduce the notions of regular and singular foliations, discuss their main features, and present some motivating examples.",
+    "recording": "",
+    "notes": "",
+    "series": "From Foliation Theory to Poisson Structures",
+    "speaker": "Ruben Louis",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "personalPage": "https://ruben-louis.apps.math.cnrs.fr/",
+    "mail": "",
+    "description": "Roughly speaking, a foliation on a smooth manifold is a partition of the manifold into immersed submanifolds of constant dimension, called leaves, which fit together smoothly. When the dimensions of these submanifolds are allowed to vary, we speak of a singular foliation. By the Frobenius theorem, a regular foliation can be described as an involutive subbundle of the tangent bundle. The dual of such a vector bundle carries a natural linear Poisson structure that encodes the infinitesimal structure of the foliation; this is known as the Courant correspondence. In the singular case, the dimensions of the leaves vary, producing a singular object inside the tangent bundle rather than an ordinary vector subbundle. Consequently, one cannot directly construct a Poisson structure on its dual in the usual way. This difficulty can nevertheless be overcome by embedding the smooth manifold into the category of smooth schemes. This lecture series explores the relationship between these two worlds through examples and applications.",
+    "about": "Dr. Ruben Louis is a Haitian mathematician specializing in differential geometry, singular foliations, higher algebraic structures, and mathematical physics. He is a J. L. Doob Research Assistant Professor in the Department of Mathematics at the University of Illinois Urbana-Champaign (UIUC).",
+    "zoomLink": "https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1",
+    "meetingId": "997 1572 6257",
+    "passcode": "1729",
+    "seriesLink": "/series/ruben/"
+  },
+  {
+    "id": "RL-2",
+    "title": "Poisson Manifolds and Poisson \\(C^\\infty\\)-Rings",
+    "date": "2026-09-10",
+    "time": "09:00 IST",
+    "part": "Part 2",
+    "abstract": "We will introduce the notion of \\(C^\\infty\\)-rings and study Poisson structures in this setting. We will then discuss their relationship with singular foliations and, more generally, with Lie–Rinehart algebras.",
+    "recording": "",
+    "notes": "",
+    "series": "From Foliation Theory to Poisson Structures",
+    "speaker": "Ruben Louis",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "personalPage": "https://ruben-louis.apps.math.cnrs.fr/",
+    "mail": "",
+    "description": "Roughly speaking, a foliation on a smooth manifold is a partition of the manifold into immersed submanifolds of constant dimension, called leaves, which fit together smoothly. When the dimensions of these submanifolds are allowed to vary, we speak of a singular foliation. By the Frobenius theorem, a regular foliation can be described as an involutive subbundle of the tangent bundle. The dual of such a vector bundle carries a natural linear Poisson structure that encodes the infinitesimal structure of the foliation; this is known as the Courant correspondence. In the singular case, the dimensions of the leaves vary, producing a singular object inside the tangent bundle rather than an ordinary vector subbundle. Consequently, one cannot directly construct a Poisson structure on its dual in the usual way. This difficulty can nevertheless be overcome by embedding the smooth manifold into the category of smooth schemes. This lecture series explores the relationship between these two worlds through examples and applications.",
+    "about": "Dr. Ruben Louis is a Haitian mathematician specializing in differential geometry, singular foliations, higher algebraic structures, and mathematical physics. He is a J. L. Doob Research Assistant Professor in the Department of Mathematics at the University of Illinois Urbana-Champaign (UIUC).",
+    "zoomLink": "https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1",
+    "meetingId": "997 1572 6257",
+    "passcode": "1729",
+    "seriesLink": "/series/ruben/"
+  },
+  {
+    "id": "RL-3",
+    "title": "Lie–Rinehart and Poisson Algebras over \\(C^\\infty\\)-Rings",
+    "date": "2026-09-24",
+    "time": "09:00 IST",
+    "part": "Part 3",
+    "abstract": "We will present a recent result extending the Courant correspondence to Lie–Rinehart algebras over \\(C^\\infty\\)-rings, based on joint work with Eugene Lerman.",
+    "recording": "",
+    "notes": "",
+    "series": "From Foliation Theory to Poisson Structures",
+    "speaker": "Ruben Louis",
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "personalPage": "https://ruben-louis.apps.math.cnrs.fr/",
+    "mail": "",
+    "description": "Roughly speaking, a foliation on a smooth manifold is a partition of the manifold into immersed submanifolds of constant dimension, called leaves, which fit together smoothly. When the dimensions of these submanifolds are allowed to vary, we speak of a singular foliation. By the Frobenius theorem, a regular foliation can be described as an involutive subbundle of the tangent bundle. The dual of such a vector bundle carries a natural linear Poisson structure that encodes the infinitesimal structure of the foliation; this is known as the Courant correspondence. In the singular case, the dimensions of the leaves vary, producing a singular object inside the tangent bundle rather than an ordinary vector subbundle. Consequently, one cannot directly construct a Poisson structure on its dual in the usual way. This difficulty can nevertheless be overcome by embedding the smooth manifold into the category of smooth schemes. This lecture series explores the relationship between these two worlds through examples and applications.",
+    "about": "Dr. Ruben Louis is a Haitian mathematician specializing in differential geometry, singular foliations, higher algebraic structures, and mathematical physics. He is a J. L. Doob Research Assistant Professor in the Department of Mathematics at the University of Illinois Urbana-Champaign (UIUC).",
+    "zoomLink": "https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1",
+    "meetingId": "997 1572 6257",
+    "passcode": "1729",
+    "seriesLink": "/series/ruben/"
   }
 ]

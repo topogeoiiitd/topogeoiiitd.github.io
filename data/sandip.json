@@ -1,77 +1,97 @@
-[
-  {
-    "id": "SS-1",
-    "title": "Foundations and Basic Examples",
+{
+  "series": {
+    "slug": "on-the-groups-of-self-homotopy-equivalences",
+    "name": "On The Groups of Self-Homotopy Equivalences",
     "speaker": "Sandip Samanta",
-    "personalPage": "https://students.iiserkol.ac.in/~ss18ip021/",
     "affiliation": "IISER Kolkata",
+    "personalPage": "https://students.iiserkol.ac.in/~ss18ip021/",
     "mail": "ss18ip021@iiserkol.ac.in",
-    "date": "2026-01-20",
-    "time": "16:00 IST",
-    "series": "On The Groups of Self-Homotopy Equivalences",
-    "seriesDates": [
-      "20 January",
-      "27 January",
-      "3 February"
-    ],
-    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
+    "description": "We present a comprehensive survey of the groups of self-homotopy equivalences $\\mathcal{E}(X)$ and their important subgroups, focusing on classical computations for key spaces such as spheres, projective spaces, Moore spaces, and rank one $H$-spaces. The study includes structural results, exact sequences for products and wedges, various generalizations of self-equivalences, and notable applications in fibration classification and $H$-space theory. We conclude by outlining open problems regarding the characterization, computation, and realization of these groups.",
+    "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics.",
     "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
     "meetingId": "989 7322 5688",
     "passcode": "1729",
-    "description": "We present a comprehensive survey of the groups of self-homotopy equivalences $\\mathcal{E}(X)$ and their important subgroups, focusing on classical computations for key spaces such as spheres, projective spaces, Moore spaces, and rank one $H$-spaces. The study includes structural results, exact sequences for products and wedges, various generalizations of self-equivalences, and notable applications in fibration classification and $H$-space theory. We conclude by outlining open problems regarding the characterization, computation, and realization of these groups.",
-    "part": "Part 1",
-    "recording": "https://youtu.be/8O4kk8tlH2s",
-    "notes": "/notes/Sandip-Lecture_Notes-1.pdf",
-    "references": "",
-    "abstract": "We provide an overview of the group of self-homotopy equivalences, $\\mathcal{E}(X) = \\{[f] \\mid f: X \\simeq X\\}$, focusing on key subgroups such as those acting trivially on homotopy or cohomology groups. We summarize the known structures of $\\mathcal{E}(X)$ for spaces like spheres and low-dimensional complexes. The discussion includes exact sequences relating $\\mathcal{E}(X)$ for products and wedge sums. Finally, we explore various generalizations obtained by considering free-, fiber-, equivariant-, and $H$-homotopy equivalences, highlighting their algebraic and geometric significance through classical results.",
-    "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics."
+    "references": []
   },
-  {
-    "id": "SS-2",
-    "title": "Some Computations",
-    "speaker": "Sandip Samanta",
-    "personalPage": "https://students.iiserkol.ac.in/~ss18ip021/",
-    "date": "2026-01-27",
-    "time": "18:00 IST",
-    "series": "On The Groups of Self-Homotopy Equivalences",
-    "seriesDates": [
-      "20 January",
-      "27 January",
-      "3 February"
-    ],
-    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
-    "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
-    "meetingId": "989 7322 5688",
-    "passcode": "1729",
-    "description": "We present a comprehensive survey of the groups of self-homotopy equivalences $\\mathcal{E}(X)$ and their important subgroups, focusing on classical computations for key spaces such as spheres, projective spaces, Moore spaces, and rank one $H$-spaces. The study includes structural results, exact sequences for products and wedges, various generalizations of self-equivalences, and notable applications in fibration classification and $H$-space theory. We conclude by outlining open problems regarding the characterization, computation, and realization of these groups.",
-    "part": "Part 2",
-    "recording": "https://youtu.be/0u58WlPFLEI",
-    "notes": "/notes/Sandip-Lecture_Notes-2.pdf",
-    "abstract": "We survey explicit computations of the group of self-homotopy equivalences $\\mathcal{E}(X)$ for key spaces in homotopy theory. This includes results for pseudo-projective planes, with emphasis on lens spaces, as well as for Moore spaces $M(G, n)$ and twisted Eilenberg-MacLane spaces. We also discuss the structure of $\\mathcal{E}(X)$ for real, complex, and quaternionic projective spaces. Additionally, we present computations of $\\mathcal{E}_H(X)$ for rank one $H$-spaces, specifically $S^1$, $S^3$, $S^7$, $\\mathbb{R}P^3$, $\\mathbb{R}P^7$, and for certain higher-dimensional examples such as $S^3\\times S^7$, $S^3\\times S^3$, $S^7\\times S^7$, $SU(3)$, and $Sp(2)$. These cases illustrate the diversity and depth of self-equivalence groups across notable spaces in topology.",
-    "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics."
-  },
-  {
-    "id": "SS-3",
-    "title": "Algebraic Connection, Localization and Open Problems",
-    "speaker": "Sandip Samanta",
-    "personalPage": "https://students.iiserkol.ac.in/~ss18ip021/",
-    "date": "2026-02-03",
-    "time": "19:00 IST",
-    "series": "On The Groups of Self-Homotopy Equivalences",
-    "seriesDates": [
-      "20 January",
-      "27 January",
-      "3 February"
-    ],
-    "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences",
-    "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
-    "meetingId": "989 7322 5688",
-    "passcode": "1729",
-    "description": "We present a comprehensive survey of the groups of self-homotopy equivalences $\\mathcal{E}(X)$ and their important subgroups, focusing on classical computations for key spaces such as spheres, projective spaces, Moore spaces, and rank one $H$-spaces. The study includes structural results, exact sequences for products and wedges, various generalizations of self-equivalences, and notable applications in fibration classification and $H$-space theory. We conclude by outlining open problems regarding the characterization, computation, and realization of these groups.",
-    "part": "Part 3",
-    "recording": "https://youtu.be/IbOxzVgFkWo",
-    "notes": "/notes/Sandip-Lecture_Notes-3.pdf",
-    "abstract": "Here we will briefly see the ingredients of rational homotopy theory, like rationalization of spaces, Sullivan (minimal) models, LS category, etc, and compute some basic examples. Finally, we will relate these to our case of self-homotopy equivalences, like how $\\mathcal{E}(X)$ and $\\mathcal{E}(X_\\mathcal{P})$ are related, some other results and possible open directions.",
-    "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics."
-  }
-]
+  "talks": [
+    {
+      "id": "SS-1",
+      "title": "Foundations and Basic Examples",
+      "speaker": "Sandip Samanta",
+      "personalPage": "https://students.iiserkol.ac.in/~ss18ip021/",
+      "affiliation": "IISER Kolkata",
+      "mail": "ss18ip021@iiserkol.ac.in",
+      "date": "2026-01-20",
+      "time": "16:00 IST",
+      "series": "On The Groups of Self-Homotopy Equivalences",
+      "seriesDates": [
+        "20 January",
+        "27 January",
+        "3 February"
+      ],
+      "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences/",
+      "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
+      "meetingId": "989 7322 5688",
+      "passcode": "1729",
+      "description": "We present a comprehensive survey of the groups of self-homotopy equivalences $\\mathcal{E}(X)$ and their important subgroups, focusing on classical computations for key spaces such as spheres, projective spaces, Moore spaces, and rank one $H$-spaces. The study includes structural results, exact sequences for products and wedges, various generalizations of self-equivalences, and notable applications in fibration classification and $H$-space theory. We conclude by outlining open problems regarding the characterization, computation, and realization of these groups.",
+      "part": "Part 1",
+      "recording": "https://youtu.be/8O4kk8tlH2s",
+      "notes": "/notes/Sandip-Lecture_Notes-1.pdf",
+      "references": "",
+      "abstract": "We provide an overview of the group of self-homotopy equivalences, $\\mathcal{E}(X) = \\{[f] \\mid f: X \\simeq X\\}$, focusing on key subgroups such as those acting trivially on homotopy or cohomology groups. We summarize the known structures of $\\mathcal{E}(X)$ for spaces like spheres and low-dimensional complexes. The discussion includes exact sequences relating $\\mathcal{E}(X)$ for products and wedge sums. Finally, we explore various generalizations obtained by considering free-, fiber-, equivariant-, and $H$-homotopy equivalences, highlighting their algebraic and geometric significance through classical results.",
+      "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics."
+    },
+    {
+      "id": "SS-2",
+      "title": "Some Computations",
+      "speaker": "Sandip Samanta",
+      "personalPage": "https://students.iiserkol.ac.in/~ss18ip021/",
+      "date": "2026-01-27",
+      "time": "18:00 IST",
+      "series": "On The Groups of Self-Homotopy Equivalences",
+      "seriesDates": [
+        "20 January",
+        "27 January",
+        "3 February"
+      ],
+      "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences/",
+      "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
+      "meetingId": "989 7322 5688",
+      "passcode": "1729",
+      "description": "We present a comprehensive survey of the groups of self-homotopy equivalences $\\mathcal{E}(X)$ and their important subgroups, focusing on classical computations for key spaces such as spheres, projective spaces, Moore spaces, and rank one $H$-spaces. The study includes structural results, exact sequences for products and wedges, various generalizations of self-equivalences, and notable applications in fibration classification and $H$-space theory. We conclude by outlining open problems regarding the characterization, computation, and realization of these groups.",
+      "part": "Part 2",
+      "recording": "https://youtu.be/0u58WlPFLEI",
+      "notes": "/notes/Sandip-Lecture_Notes-2.pdf",
+      "abstract": "We survey explicit computations of the group of self-homotopy equivalences $\\mathcal{E}(X)$ for key spaces in homotopy theory. This includes results for pseudo-projective planes, with emphasis on lens spaces, as well as for Moore spaces $M(G, n)$ and twisted Eilenberg-MacLane spaces. We also discuss the structure of $\\mathcal{E}(X)$ for real, complex, and quaternionic projective spaces. Additionally, we present computations of $\\mathcal{E}_H(X)$ for rank one $H$-spaces, specifically $S^1$, $S^3$, $S^7$, $\\mathbb{R}P^3$, $\\mathbb{R}P^7$, and for certain higher-dimensional examples such as $S^3\\times S^7$, $S^3\\times S^3$, $S^7\\times S^7$, $SU(3)$, and $Sp(2)$. These cases illustrate the diversity and depth of self-equivalence groups across notable spaces in topology.",
+      "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics.",
+      "affiliation": "IISER Kolkata",
+      "mail": "ss18ip021@iiserkol.ac.in"
+    },
+    {
+      "id": "SS-3",
+      "title": "Algebraic Connection, Localization and Open Problems",
+      "speaker": "Sandip Samanta",
+      "personalPage": "https://students.iiserkol.ac.in/~ss18ip021/",
+      "date": "2026-02-03",
+      "time": "19:00 IST",
+      "series": "On The Groups of Self-Homotopy Equivalences",
+      "seriesDates": [
+        "20 January",
+        "27 January",
+        "3 February"
+      ],
+      "seriesLink": "/series/on-the-groups-of-self-homotopy-equivalences/",
+      "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
+      "meetingId": "989 7322 5688",
+      "passcode": "1729",
+      "description": "We present a comprehensive survey of the groups of self-homotopy equivalences $\\mathcal{E}(X)$ and their important subgroups, focusing on classical computations for key spaces such as spheres, projective spaces, Moore spaces, and rank one $H$-spaces. The study includes structural results, exact sequences for products and wedges, various generalizations of self-equivalences, and notable applications in fibration classification and $H$-space theory. We conclude by outlining open problems regarding the characterization, computation, and realization of these groups.",
+      "part": "Part 3",
+      "recording": "https://youtu.be/IbOxzVgFkWo",
+      "notes": "/notes/Sandip-Lecture_Notes-3.pdf",
+      "abstract": "Here we will briefly see the ingredients of rational homotopy theory, like rationalization of spaces, Sullivan (minimal) models, LS category, etc, and compute some basic examples. Finally, we will relate these to our case of self-homotopy equivalences, like how $\\mathcal{E}(X)$ and $\\mathcal{E}(X_\\mathcal{P})$ are related, some other results and possible open directions.",
+      "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics.",
+      "affiliation": "IISER Kolkata",
+      "mail": "ss18ip021@iiserkol.ac.in"
+    }
+  ]
+}

@@ -26,8 +26,8 @@
     <meta property="og:url" content="https://topogeoiiitd.github.io/">
     <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
     <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="/assets/theme.css">
-    <script src="/assets/theme.js"></script>
+    <link rel="stylesheet" href="/assets/theme.css?v=cb15324dd8d6">
+    <script src="/assets/theme.js?v=cb15324dd8d6"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/","logo":"https://topogeoiiitd.github.io/assets/logo.png","email":"sachchidanand@iiitd.ac.in","parentOrganization":{"@type":"CollegeOrUniversity","name":"IIIT Delhi","url":"https://www.iiitd.ac.in/"},"sameAs":["https://youtube.com/playlist?list=PLrcy-sY3vswEAbpCADmD-RvJVptfdWEis&si=pkmdTsg3s1htJ2wR"]}</script>
 </head>
 
@@ -154,7 +154,7 @@
         // Load navbar component
         async function loadNavbar() {
             try {
-                const response = await fetch('./components/navbar.html');
+                const response = await fetch('./components/navbar.html', { cache: 'no-store' });
                 const navbarHtml = await response.text();
                 document.getElementById('navbar-container').innerHTML = navbarHtml;
                 initializeNavbar();
@@ -183,7 +183,7 @@
 
         async function loadFooter() {
             try {
-                const response = await fetch('./components/footer.html');
+                const response = await fetch('./components/footer.html', { cache: 'no-store' });
                 const footerHtml = await response.text();
                 document.getElementById('footer-container').innerHTML = footerHtml;
             } catch (error) {

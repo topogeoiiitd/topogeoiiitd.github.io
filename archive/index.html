@@ -112,8 +112,8 @@
     <meta property="og:url" content="https://topogeoiiitd.github.io/archive/">
     <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
     <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="/assets/theme.css">
-    <script src="/assets/theme.js"></script>
+    <link rel="stylesheet" href="/assets/theme.css?v=cb15324dd8d6">
+    <script src="/assets/theme.js?v=cb15324dd8d6"></script>
     
 </head>
 <body class="bg-gray-50 font-sans min-h-full flex flex-col">
@@ -194,7 +194,7 @@
         // Load navbar component
         async function loadNavbar() {
             try {
-                const response = await fetch('/components/navbar.html');
+                const response = await fetch('/components/navbar.html', { cache: 'no-store' });
                 const navbarHtml = await response.text();
                 document.getElementById('navbar-container').innerHTML = navbarHtml;
                 initializeNavbar();
@@ -225,7 +225,7 @@
         // Load footer component
         async function loadFooter() {
             try {
-                const response = await fetch('/components/footer.html');
+                const response = await fetch('/components/footer.html', { cache: 'no-store' });
                 const footerHtml = await response.text();
                 document.getElementById('footer-container').innerHTML = footerHtml;
             } catch (error) {

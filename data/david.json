@@ -43,7 +43,8 @@
       "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
       "meetingId": "989 7322 5688",
       "passcode": "1729",
-      "seriesLink": "/series/diffeology/"
+      "seriesLink": "/series/diffeology/",
+      "durationMinutes": 60
     },
     {
       "id": "DM-2",
@@ -64,7 +65,8 @@
       "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
       "meetingId": "989 7322 5688",
       "passcode": "1729",
-      "seriesLink": "/series/diffeology/"
+      "seriesLink": "/series/diffeology/",
+      "durationMinutes": 60
     },
     {
       "id": "DM-3",
@@ -85,7 +87,8 @@
       "zoomLink": "https://iiitd-ac-in.zoom.us/j/98973225688?pwd=XhklapvhcYK1psmzGXtjCCgzFBmlFU.1",
       "meetingId": "989 7322 5688",
       "passcode": "1729",
-      "seriesLink": "/series/diffeology/"
+      "seriesLink": "/series/diffeology/",
+      "durationMinutes": 60
     }
   ]
 }

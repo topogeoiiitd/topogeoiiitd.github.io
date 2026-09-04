@@ -41,6 +41,8 @@
     <meta property="og:url" content="https://topogeoiiitd.github.io/series/ruben/">
     <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
     <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="/assets/theme.css">
+    <script src="/assets/theme.js"></script>
     <script type="application/ld+json">[{"@context":"https://schema.org","@type":"EducationEvent","name":"Foliations and Singular Foliations","description":"We will introduce the notions of regular and singular foliations, discuss their main features, and present some motivating examples.","startDate":"2026-09-03T14:00:00+05:30","endDate":"2026-09-03T09:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/ruben/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/ruben/"},"performer":{"@type":"Person","name":"Ruben Louis","url":"https://ruben-louis.apps.math.cnrs.fr/","affiliation":{"@type":"Organization","name":"University of Illinois Urbana-Champaign"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","name":"Poisson Manifolds and Poisson \\(C^\\infty\\)-Rings","description":"We will introduce the notion of (C^infty)-rings and study Poisson structures in this setting. We will then discuss their relationship with singular foliations and, more generally, with Lie-Rinehart algebras.","startDate":"2026-09-10T14:00:00+05:30","endDate":"2026-09-10T09:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/ruben/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/ruben/"},"performer":{"@type":"Person","name":"Ruben Louis","url":"https://ruben-louis.apps.math.cnrs.fr/","affiliation":{"@type":"Organization","name":"University of Illinois Urbana-Champaign"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","name":"Lie-Rinehart and Poisson Algebras over \\(C^\\infty\\)-Rings","description":"We will present a recent result extending the Courant correspondence to Lie–Rinehart algebras over (C^infty)-rings, based on joint work with Eugene Lerman.","startDate":"2026-09-24T14:00:00+05:30","endDate":"2026-09-24T09:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/ruben/","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/ruben/"},"performer":{"@type":"Person","name":"Ruben Louis","url":"https://ruben-louis.apps.math.cnrs.fr/","affiliation":{"@type":"Organization","name":"University of Illinois Urbana-Champaign"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}}]</script>
 </head>
 <body class="bg-gray-50 font-sans">
@@ -208,11 +210,15 @@
         }
 
         function hasTalkConcluded(talk) {
-            const dt = parseISTDateTime(talk.date, talk.time);
-            // If date/time is missing or malformed, don't hide the Zoom info —
-            // fail safe towards "still show it" rather than silently breaking the card.
-            if (!dt) return false;
-            return dt < new Date();
+            const start = parseISTDateTime(talk.date, talk.time);
+            // Keep the meeting information visible throughout the lecture.
+            if (!start) return false;
+            const configuredDuration = Number(talk.durationMinutes);
+            const durationMinutes = Number.isFinite(configuredDuration) && configuredDuration > 0
+                ? configuredDuration
+                : 60;
+            const end = new Date(start.getTime() + durationMinutes * 60_000);
+            return new Date() >= end;
         }
         // --- End added helpers ---
 

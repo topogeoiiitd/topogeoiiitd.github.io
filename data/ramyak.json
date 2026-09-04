@@ -46,7 +46,8 @@
       "zoomLink": "https://iiitd-ac-in.zoom.us/j/94481309285?pwd=I2rz68eOY928VlWvRbu10sXWbWsYGa.1",
       "meetingId": "944 8130 9285",
       "passcode": "1729",
-      "seriesLink": "/series/non-commutative-witt-vectors-characteristic-map-and-pairing/"
+      "seriesLink": "/series/non-commutative-witt-vectors-characteristic-map-and-pairing/",
+      "durationMinutes": 60
     },
     {
       "id": "RB-2",
@@ -67,7 +68,8 @@
       "zoomLink": "https://iiitd-ac-in.zoom.us/j/94481309285?pwd=I2rz68eOY928VlWvRbu10sXWbWsYGa.1",
       "meetingId": "944 8130 9285",
       "passcode": "1729",
-      "seriesLink": "/series/non-commutative-witt-vectors-characteristic-map-and-pairing/"
+      "seriesLink": "/series/non-commutative-witt-vectors-characteristic-map-and-pairing/",
+      "durationMinutes": 60
     }
   ]
 }

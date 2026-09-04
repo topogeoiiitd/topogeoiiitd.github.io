@@ -49,7 +49,8 @@
       "zoomLink": "https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1",
       "meetingId": "997 1572 6257",
       "passcode": "1729",
-      "seriesLink": "/series/ruben/"
+      "seriesLink": "/series/ruben/",
+      "durationMinutes": 60
     },
     {
       "id": "RL-2",
@@ -70,7 +71,8 @@
       "zoomLink": "https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1",
       "meetingId": "997 1572 6257",
       "passcode": "1729",
-      "seriesLink": "/series/ruben/"
+      "seriesLink": "/series/ruben/",
+      "durationMinutes": 60
     },
     {
       "id": "RL-3",
@@ -91,7 +93,8 @@
       "zoomLink": "https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1",
       "meetingId": "997 1572 6257",
       "passcode": "1729",
-      "seriesLink": "/series/ruben/"
+      "seriesLink": "/series/ruben/",
+      "durationMinutes": 60
     }
   ]
 }

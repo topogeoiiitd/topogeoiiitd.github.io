@@ -102,7 +102,8 @@
           "url": ""
         }
       ],
-      "mail": ""
+      "mail": "",
+      "durationMinutes": 60
     },
     {
       "id": "SR-2",
@@ -130,7 +131,8 @@
       "abstract": "The coarse cohomology $HX^*(X)$ of a space $X$ is introduced as a functor from the coarse category, and its coarse invariance is discussed. We then particularize to metric spaces and study a few examples.",
       "personalPage": "https://www.uma.es/departments/teachers/MUd5YlkrRGtNZitqQ3VPZWZrRWh2QT09/",
       "mail": "",
-      "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces."
+      "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces.",
+      "durationMinutes": 60
     },
     {
       "id": "SR-3",
@@ -158,7 +160,8 @@
       "abstract": "We refine the structure of $HX^*(X)$, enhancing it to an algebra by endowing it with a product. Much like the cup product [3, §3.2] allows for a finer distinction between topological spaces, it is natural to seek products in coarse cohomology that sharpen the information it provides. A first strategy is to adapt the cup product to this context, but the resulting product in coarse cohomology turns out to be trivial. However, not all is lost: in such cases, one can define Massey triple products. In this session, we will introduce a closely related idea: the Roe product in coarse cohomology [5, §2.4]. This procedure can be abstracted to an algebraic setting, whose potential will later be exploited again.",
       "personalPage": "https://www.uma.es/departments/teachers/MUd5YlkrRGtNZitqQ3VPZWZrRWh2QT09/",
       "mail": "",
-      "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces."
+      "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces.",
+      "durationMinutes": 60
     },
     {
       "id": "SR-4",
@@ -186,7 +189,8 @@
       "abstract": "The category $\\mathrm{TopBorn}$ of topological bornological spaces is defined, as in [2, §7.1.1]. We propose an invariant $HB^*$ on these spaces, which we call bornological cohomology, and show that it can be determined from the Alexander-Spanier cohomology at infinity. We compute several examples and enrich $HB^*$ with a product, endowing it with the structure of a differential graded algebra.",
       "personalPage": "https://www.uma.es/departments/teachers/MUd5YlkrRGtNZitqQ3VPZWZrRWh2QT09/",
       "mail": "",
-      "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces."
+      "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces.",
+      "durationMinutes": 60
     },
     {
       "id": "SR-5",
@@ -214,7 +218,8 @@
       "abstract": "It is well known that the degree-zero singular homology of a topological space is determined by its path-connected components. Similarly, degree-zero Alexander-Spanier cohomology can be computed from its connected components. We ask whether, for a topological bornological space $X$, there exists a similar connection between $HB^{1}(X)$ and the ``components at infinity of $X$''. \n\nThis question naturally leads us to give meaning to notions such as rays in $X$, (path-)connected components at infinity, and ultimately to consider compactifications of $X$. After addressing this question, we generalize the tools involved by studying certain extensions of $X$ whose boundaries at infinity are Stone spaces [4], which can therefore be treated dually as topological spaces or as Boolean algebras (this is recent work in progress). \n\nWe will conclude the course by reviewing some questions that remain open.",
       "personalPage": "https://www.uma.es/departments/teachers/MUd5YlkrRGtNZitqQ3VPZWZrRWh2QT09/",
       "mail": "",
-      "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces."
+      "about": "Sergio Romero Alba is affiliated with Georg-August-Universität Göttingen and University of Málaga. His research focuses on coarse geometry, homological algebra, and the study of spaces from infinitely far away using topological and homological tools. He works on coarse cohomology and its applications to geometric group theory and topological bornological spaces.",
+      "durationMinutes": 60
     }
   ]
 }

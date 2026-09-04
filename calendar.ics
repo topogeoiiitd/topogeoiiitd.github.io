@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Topology and Geometry Seminar
 BEGIN:VEVENT
 UID:RSS-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20250827T103000Z
 DTEND:20250827T113000Z
 SUMMARY:Overview of Some Concepts Related to Compact Kähler Manifolds (Prerequisites)
@@ -15,7 +15,7 @@ URL:https://topogeoiiitd.github.io/series/existence-of-higher-extremal-kahler-me
 END:VEVENT
 BEGIN:VEVENT
 UID:RSS-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20250903T090000Z
 DTEND:20250903T100000Z
 SUMMARY:Overview of Some Concepts Related to Holomorphic Line Bundles (Prerequisites)
@@ -25,7 +25,7 @@ URL:https://topogeoiiitd.github.io/series/existence-of-higher-extremal-kahler-me
 END:VEVENT
 BEGIN:VEVENT
 UID:RSS-3@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20250910T090000Z
 DTEND:20250910T100000Z
 SUMMARY:Existence of Higher Extremal Kähler Metrics on a Minimal Ruled Surface (Final Main Talk)
@@ -35,7 +35,7 @@ URL:https://topogeoiiitd.github.io/series/existence-of-higher-extremal-kahler-me
 END:VEVENT
 BEGIN:VEVENT
 UID:OC-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20250917T113000Z
 DTEND:20250917T123000Z
 SUMMARY:Poisson manifolds and Hamiltonian systems
@@ -45,7 +45,7 @@ URL:https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechan
 END:VEVENT
 BEGIN:VEVENT
 UID:OC-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20250924T113000Z
 DTEND:20250924T123000Z
 SUMMARY:Symplectic groupoids and Hamilton-Jacobi equation
@@ -55,7 +55,7 @@ URL:https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechan
 END:VEVENT
 BEGIN:VEVENT
 UID:OC-3@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251001T113000Z
 DTEND:20251001T123000Z
 SUMMARY:Hamiltonian Poisson integrator
@@ -65,7 +65,7 @@ URL:https://topogeoiiitd.github.io/series/invariant-theory-of-hamiltonian-mechan
 END:VEVENT
 BEGIN:VEVENT
 UID:LS-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251008T113000Z
 DTEND:20251008T123000Z
 SUMMARY:Dirac bundles and Dirac operators
@@ -75,7 +75,7 @@ URL:https://topogeoiiitd.github.io/series/spin-geometry-and-scalar-curvature-rig
 END:VEVENT
 BEGIN:VEVENT
 UID:LS-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251016T093000Z
 DTEND:20251016T103000Z
 SUMMARY:Spin manifolds
@@ -85,7 +85,7 @@ URL:https://topogeoiiitd.github.io/series/spin-geometry-and-scalar-curvature-rig
 END:VEVENT
 BEGIN:VEVENT
 UID:LS-3@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251022T113000Z
 DTEND:20251022T123000Z
 SUMMARY:Llarull's theorem and generalizations
@@ -95,7 +95,7 @@ URL:https://topogeoiiitd.github.io/series/spin-geometry-and-scalar-curvature-rig
 END:VEVENT
 BEGIN:VEVENT
 UID:LS-4@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251029T113000Z
 DTEND:20251029T123000Z
 SUMMARY:Scalar curvature rigidity for manifolds with cone singularities
@@ -105,7 +105,7 @@ URL:https://topogeoiiitd.github.io/series/spin-geometry-and-scalar-curvature-rig
 END:VEVENT
 BEGIN:VEVENT
 UID:SR-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251105T113000Z
 DTEND:20251105T123000Z
 SUMMARY:Motivation. Groups as metric spaces
@@ -115,7 +115,7 @@ URL:https://topogeoiiitd.github.io/series/coarse-cohomology/
 END:VEVENT
 BEGIN:VEVENT
 UID:SR-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251112T113000Z
 DTEND:20251112T123000Z
 SUMMARY:Coarse cohomology and the coarse category. Basic properties
@@ -125,7 +125,7 @@ URL:https://topogeoiiitd.github.io/series/coarse-cohomology/
 END:VEVENT
 BEGIN:VEVENT
 UID:SR-3@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251119T113000Z
 DTEND:20251119T123000Z
 SUMMARY:Ideals of contractible DGAs. The Roe product in coarse cohomology
@@ -135,7 +135,7 @@ URL:https://topogeoiiitd.github.io/series/coarse-cohomology/
 END:VEVENT
 BEGIN:VEVENT
 UID:SR-4@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251126T113000Z
 DTEND:20251126T123000Z
 SUMMARY:Topological bornological spaces and their cohomology
@@ -145,7 +145,7 @@ URL:https://topogeoiiitd.github.io/series/coarse-cohomology/
 END:VEVENT
 BEGIN:VEVENT
 UID:SR-5@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20251203T100000Z
 DTEND:20251203T110000Z
 SUMMARY:Low degree cohomology\, extension spaces and boundaries at infinity. Open problems
@@ -155,7 +155,7 @@ URL:https://topogeoiiitd.github.io/series/coarse-cohomology/
 END:VEVENT
 BEGIN:VEVENT
 UID:SS-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260120T103000Z
 DTEND:20260120T113000Z
 SUMMARY:Foundations and Basic Examples
@@ -165,7 +165,7 @@ URL:https://topogeoiiitd.github.io/series/on-the-groups-of-self-homotopy-equival
 END:VEVENT
 BEGIN:VEVENT
 UID:SS-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260127T123000Z
 DTEND:20260127T133000Z
 SUMMARY:Some Computations
@@ -175,7 +175,7 @@ URL:https://topogeoiiitd.github.io/series/on-the-groups-of-self-homotopy-equival
 END:VEVENT
 BEGIN:VEVENT
 UID:SS-3@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260203T133000Z
 DTEND:20260203T143000Z
 SUMMARY:Algebraic Connection\, Localization and Open Problems
@@ -185,7 +185,7 @@ URL:https://topogeoiiitd.github.io/series/on-the-groups-of-self-homotopy-equival
 END:VEVENT
 BEGIN:VEVENT
 UID:SK-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260210T103000Z
 DTEND:20260210T113000Z
 SUMMARY:Basic notions of knot theory
@@ -195,7 +195,7 @@ URL:https://topogeoiiitd.github.io/series/knot-theory/
 END:VEVENT
 BEGIN:VEVENT
 UID:SK-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260217T103000Z
 DTEND:20260217T113000Z
 SUMMARY:Kauffman bracket and the colored Jones polynomial
@@ -205,7 +205,7 @@ URL:https://topogeoiiitd.github.io/series/knot-theory/
 END:VEVENT
 BEGIN:VEVENT
 UID:SK-3@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260224T103000Z
 DTEND:20260224T113000Z
 SUMMARY:Knot theory and low-dimensional topology
@@ -215,7 +215,7 @@ URL:https://topogeoiiitd.github.io/series/knot-theory/
 END:VEVENT
 BEGIN:VEVENT
 UID:DM-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260310T103000Z
 DTEND:20260310T113000Z
 SUMMARY:Diffeology: definitions and examples
@@ -225,7 +225,7 @@ URL:https://topogeoiiitd.github.io/series/diffeology/
 END:VEVENT
 BEGIN:VEVENT
 UID:DM-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260317T103000Z
 DTEND:20260317T113000Z
 SUMMARY:Higher and infinite-dimensional structures in geometry
@@ -235,7 +235,7 @@ URL:https://topogeoiiitd.github.io/series/diffeology/
 END:VEVENT
 BEGIN:VEVENT
 UID:DM-3@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260324T103000Z
 DTEND:20260324T113000Z
 SUMMARY:Diffeological geometry
@@ -245,7 +245,7 @@ URL:https://topogeoiiitd.github.io/series/diffeology/
 END:VEVENT
 BEGIN:VEVENT
 UID:AD-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260414T103000Z
 DTEND:20260414T113000Z
 SUMMARY:Introduction to minimal and maximal surfaces in $\\mathbb{R}^3$ and $\\mathbb{L}_1^3$ respectively
@@ -255,7 +255,7 @@ URL:https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-
 END:VEVENT
 BEGIN:VEVENT
 UID:AD-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260421T103000Z
 DTEND:20260421T113000Z
 SUMMARY:Node-opening construction of maxfaces
@@ -265,7 +265,7 @@ URL:https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-
 END:VEVENT
 BEGIN:VEVENT
 UID:RB-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260825T033000Z
 DTEND:20260825T043000Z
 SUMMARY:Non-Commutative Witt Vectors\, Characteristic Map and Pairing I
@@ -275,7 +275,7 @@ URL:https://topogeoiiitd.github.io/series/non-commutative-witt-vectors-character
 END:VEVENT
 BEGIN:VEVENT
 UID:RB-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260827T033000Z
 DTEND:20260827T043000Z
 SUMMARY:Non-Commutative Witt Vectors\, Characteristic Map and Pairing II
@@ -285,7 +285,7 @@ URL:https://topogeoiiitd.github.io/series/non-commutative-witt-vectors-character
 END:VEVENT
 BEGIN:VEVENT
 UID:RL-1@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260903T083000Z
 DTEND:20260903T093000Z
 SUMMARY:Foliations and Singular Foliations
@@ -295,7 +295,7 @@ URL:https://topogeoiiitd.github.io/series/ruben/
 END:VEVENT
 BEGIN:VEVENT
 UID:RL-2@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260910T083000Z
 DTEND:20260910T093000Z
 SUMMARY:Poisson Manifolds and Poisson \\(C^\\infty\\)-Rings
@@ -305,7 +305,7 @@ URL:https://topogeoiiitd.github.io/series/ruben/
 END:VEVENT
 BEGIN:VEVENT
 UID:RL-3@topogeoiiitd
-DTSTAMP:20260904T141017Z
+DTSTAMP:20260904T141447Z
 DTSTART:20260924T083000Z
 DTEND:20260924T093000Z
 SUMMARY:Lie-Rinehart and Poisson Algebras over \\(C^\\infty\\)-Rings

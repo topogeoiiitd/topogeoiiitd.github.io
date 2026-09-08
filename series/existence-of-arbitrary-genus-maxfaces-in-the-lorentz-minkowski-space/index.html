@@ -43,9 +43,9 @@
     <meta property="og:url" content="https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-in-the-lorentz-minkowski-space/">
     <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
     <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="/assets/site.css?v=aba3860e0c48">
-    <link rel="stylesheet" href="/assets/theme.css?v=aba3860e0c48">
-    <script src="/assets/theme.js?v=aba3860e0c48"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=7aea7e5b06d2">
+    <link rel="stylesheet" href="/assets/theme.css?v=7aea7e5b06d2">
+    <script src="/assets/theme.js?v=7aea7e5b06d2"></script>
     <script type="application/ld+json">[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topogeoiiitd.github.io/"},{"@type":"ListItem","position":2,"name":"Archive","item":"https://topogeoiiitd.github.io/archive/"},{"@type":"ListItem","position":3,"name":"Construction of arbitrary genus maxfaces in the Lorentz-Minkowski space","item":"https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-in-the-lorentz-minkowski-space/"}]},{"@context":"https://schema.org","@type":"EducationEvent","@id":"https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-in-the-lorentz-minkowski-space/#AD-1","name":"Introduction to minimal and maximal surfaces in $\\mathbb{R}^3$ and $\\mathbb{L}_1^3$ respectively","description":"In this talk, we will discuss minimal and maximal surfaces in three-dimensional Euclidean and Lorentz-Minkowski space respectively. We will explore how they are related and how to construct them. In particular, we will cover Björling problem and Weierstrass-Ennerper representations for them. I will also define the term maxface on which my next two lectures will be.","startDate":"2026-04-14T16:00:00+05:30","endDate":"2026-04-14T11:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-in-the-lorentz-minkowski-space/#AD-1","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-in-the-lorentz-minkowski-space/#AD-1"},"performer":{"@type":"Person","name":"Anu Dhochak","url":"https://www.icts.res.in/people/anu-dhochak","affiliation":{"@type":"Organization","name":"ICTS-TIFR, Bengaluru, India"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","@id":"https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-in-the-lorentz-minkowski-space/#AD-2","name":"Node-opening construction of maxfaces","description":"In this talk, we will discuss the existence of a 1-parameter family of arbitrary genus maxfaces with an arbitrary number of spacelike ends and infinitely many swallowtails. Our primary tool of construction will be node-opening technique. All maxfces of these families are embedded in a wider sense. We will also see families of Lorentzian Costa and Costa-Hoffman-Meeks surfaces, as well as periodic surfaces of infinite genus, as examples.","startDate":"2026-04-21T16:00:00+05:30","endDate":"2026-04-21T11:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-in-the-lorentz-minkowski-space/#AD-2","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/existence-of-arbitrary-genus-maxfaces-in-the-lorentz-minkowski-space/#AD-2"},"performer":{"@type":"Person","name":"Anu Dhochak","url":"https://www.icts.res.in/people/anu-dhochak","affiliation":{"@type":"Organization","name":"ICTS-TIFR, Bengaluru, India"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}}]</script>
 </head>
 <body class="bg-gray-50 font-sans">
@@ -639,6 +639,19 @@ Prerequisites: Basic differential geometry of curves and surfaces, familiarity w
             return isNaN(dt.getTime()) ? null : dt;
         }
 
+        function talkNotes(talk) {
+            const source = Array.isArray(talk.noteLinks) ? talk.noteLinks
+                : Array.isArray(talk.notes) ? talk.notes
+                : (talk.notes ? [talk.notes] : []);
+            const entries = source
+                .map(item => (typeof item === 'string' ? { label: '', url: item } : item))
+                .filter(item => item && item.url);
+            return entries.map((item, index) => ({
+                url: item.url,
+                label: item.label || (entries.length > 1 ? `Lecture Notes ${index + 1}` : 'Lecture Notes')
+            }));
+        }
+
         function formatTalkDate(dateStr, timeStr) {
             const dt = parseISTDateTime(dateStr, timeStr);
             if (!dt) return dateStr || 'Date TBA';
@@ -986,7 +999,7 @@ Prerequisites: Basic differential geometry of curves and surfaces, familiarity w
                                     ${formatTalkTime(talk.date, talk.time)}
                                 </p>
                                 ${formattedAbstract ? `<p class="text-gray-700 mb-4"><strong>Abstract:</strong> ${formattedAbstract}</p>` : ''}
-                                ${(talk.recording || talk.notes) ? `
+                                ${(talk.recording || talkNotes(talk).length) ? `
                                     <div class="mt-4 pt-4 border-t border-gray-200">
                                         <h4 class="font-semibold text-gray-800 mb-2">Post-Lecture Resources:</h4>
                                         <div class="flex flex-wrap gap-3">
@@ -998,14 +1011,14 @@ Prerequisites: Basic differential geometry of curves and surfaces, familiarity w
                                                     Watch Recording
                                                 </a>
                                             ` : ''}
-                                            ${talk.notes ? `
-                                                <a href="${talk.notes}" 
+                                            ${talkNotes(talk).map(note => `
+                                                <a href="${note.url}" 
                                                    class="inline-flex items-center px-3 py-2 bg-green-100 text-green-800 rounded-lg hover:bg-green-200 transition-colors" 
                                                    target="_blank">
                                                     <i class="fas fa-file-alt mr-2"></i>
-                                                    Lecture Notes
+                                                    ${note.label}
                                                 </a>
-                                            ` : ''}
+                                            `).join('')}
                                         </div>
                                     </div>
                                 ` : ''}

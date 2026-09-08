@@ -43,9 +43,9 @@
     <meta property="og:url" content="https://topogeoiiitd.github.io/series/ruben/">
     <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
     <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="/assets/site.css?v=aba3860e0c48">
-    <link rel="stylesheet" href="/assets/theme.css?v=aba3860e0c48">
-    <script src="/assets/theme.js?v=aba3860e0c48"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=7aea7e5b06d2">
+    <link rel="stylesheet" href="/assets/theme.css?v=7aea7e5b06d2">
+    <script src="/assets/theme.js?v=7aea7e5b06d2"></script>
     <script type="application/ld+json">[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topogeoiiitd.github.io/"},{"@type":"ListItem","position":2,"name":"Archive","item":"https://topogeoiiitd.github.io/archive/"},{"@type":"ListItem","position":3,"name":"From Foliation Theory to Poisson Structures","item":"https://topogeoiiitd.github.io/series/ruben/"}]},{"@context":"https://schema.org","@type":"EducationEvent","@id":"https://topogeoiiitd.github.io/series/ruben/#RL-1","name":"Foliations and Singular Foliations","description":"We will introduce the notions of regular and singular foliations, discuss their main features, and present some motivating examples.","startDate":"2026-09-03T14:00:00+05:30","endDate":"2026-09-03T09:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/ruben/#RL-1","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/ruben/#RL-1"},"performer":{"@type":"Person","name":"Ruben Louis","url":"https://ruben-louis.apps.math.cnrs.fr/","affiliation":{"@type":"Organization","name":"University of Illinois Urbana-Champaign"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","@id":"https://topogeoiiitd.github.io/series/ruben/#RL-2","name":"Poisson Manifolds and Poisson \\(C^\\infty\\)-Rings","description":"We will introduce the notion of (C^infty)-rings and study Poisson structures in this setting. We will then discuss their relationship with singular foliations and, more generally, with Lie-Rinehart algebras.","startDate":"2026-09-10T14:00:00+05:30","endDate":"2026-09-10T09:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/ruben/#RL-2","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/ruben/#RL-2"},"performer":{"@type":"Person","name":"Ruben Louis","url":"https://ruben-louis.apps.math.cnrs.fr/","affiliation":{"@type":"Organization","name":"University of Illinois Urbana-Champaign"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","@id":"https://topogeoiiitd.github.io/series/ruben/#RL-3","name":"Lie-Rinehart and Poisson Algebras over \\(C^\\infty\\)-Rings","description":"We will present a recent result extending the Courant correspondence to Lie–Rinehart algebras over (C^infty)-rings, based on joint work with Eugene Lerman.","startDate":"2026-09-24T14:00:00+05:30","endDate":"2026-09-24T09:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/ruben/#RL-3","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/ruben/#RL-3"},"performer":{"@type":"Person","name":"Ruben Louis","url":"https://ruben-louis.apps.math.cnrs.fr/","affiliation":{"@type":"Organization","name":"University of Illinois Urbana-Champaign"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}}]</script>
 </head>
 <body class="bg-gray-50 font-sans">
@@ -373,7 +373,7 @@
     <h4 class="font-semibold text-gray-800 mb-2">Post-Lecture Resources:</h4>
     <div class="flex flex-wrap gap-3">
       <a href="https://youtu.be/DN1MZxuAcWk" class="inline-flex items-center px-3 py-2 bg-red-100 text-red-800 rounded-lg hover:bg-red-200 transition-colors" target="_blank" rel="noopener noreferrer"><i class="fas fa-video mr-2"></i>Watch Recording</a>
-      
+      <a href="/notes/Ruben-Lecture_Notes-1.pdf" class="inline-flex items-center px-3 py-2 bg-green-100 text-green-800 rounded-lg hover:bg-green-200 transition-colors" target="_blank"><i class="fas fa-file-alt mr-2"></i>Lecture Notes</a><a href="/notes/Ruben-Lecture_Notes.pdf" class="inline-flex items-center px-3 py-2 bg-green-100 text-green-800 rounded-lg hover:bg-green-200 transition-colors" target="_blank"><i class="fas fa-file-alt mr-2"></i>Handwritten Notes</a>
     </div>
   </div>
       </div>
@@ -652,6 +652,19 @@
             const cleanTime = timeStr.replace(/\s*IST\s*/i, '').trim();
             const dt = new Date(`${dateStr}T${cleanTime}:00+05:30`);
             return isNaN(dt.getTime()) ? null : dt;
+        }
+
+        function talkNotes(talk) {
+            const source = Array.isArray(talk.noteLinks) ? talk.noteLinks
+                : Array.isArray(talk.notes) ? talk.notes
+                : (talk.notes ? [talk.notes] : []);
+            const entries = source
+                .map(item => (typeof item === 'string' ? { label: '', url: item } : item))
+                .filter(item => item && item.url);
+            return entries.map((item, index) => ({
+                url: item.url,
+                label: item.label || (entries.length > 1 ? `Lecture Notes ${index + 1}` : 'Lecture Notes')
+            }));
         }
 
         function formatTalkDate(dateStr, timeStr) {
@@ -1001,7 +1014,7 @@
                                     ${formatTalkTime(talk.date, talk.time)}
                                 </p>
                                 ${formattedAbstract ? `<p class="text-gray-700 mb-4"><strong>Abstract:</strong> ${formattedAbstract}</p>` : ''}
-                                ${(talk.recording || talk.notes) ? `
+                                ${(talk.recording || talkNotes(talk).length) ? `
                                     <div class="mt-4 pt-4 border-t border-gray-200">
                                         <h4 class="font-semibold text-gray-800 mb-2">Post-Lecture Resources:</h4>
                                         <div class="flex flex-wrap gap-3">
@@ -1013,14 +1026,14 @@
                                                     Watch Recording
                                                 </a>
                                             ` : ''}
-                                            ${talk.notes ? `
-                                                <a href="${talk.notes}" 
+                                            ${talkNotes(talk).map(note => `
+                                                <a href="${note.url}" 
                                                    class="inline-flex items-center px-3 py-2 bg-green-100 text-green-800 rounded-lg hover:bg-green-200 transition-colors" 
                                                    target="_blank">
                                                     <i class="fas fa-file-alt mr-2"></i>
-                                                    Lecture Notes
+                                                    ${note.label}
                                                 </a>
-                                            ` : ''}
+                                            `).join('')}
                                         </div>
                                     </div>
                                 ` : ''}

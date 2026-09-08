@@ -40,6 +40,12 @@
       "references": "",
       "abstract": "We provide an overview of the group of self-homotopy equivalences, $\\mathcal{E}(X) = \\{[f] \\mid f: X \\simeq X\\}$, focusing on key subgroups such as those acting trivially on homotopy or cohomology groups. We summarize the known structures of $\\mathcal{E}(X)$ for spaces like spheres and low-dimensional complexes. The discussion includes exact sequences relating $\\mathcal{E}(X)$ for products and wedge sums. Finally, we explore various generalizations obtained by considering free-, fiber-, equivariant-, and $H$-homotopy equivalences, highlighting their algebraic and geometric significance through classical results.",
       "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics.",
+      "noteLinks": [
+        {
+          "label": "Lecture Notes",
+          "url": "/notes/Sandip-Lecture_Notes-1.pdf"
+        }
+      ],
       "durationMinutes": 60
     },
     {
@@ -65,6 +71,12 @@
       "notes": "/notes/Sandip-Lecture_Notes-2.pdf",
       "abstract": "We survey explicit computations of the group of self-homotopy equivalences $\\mathcal{E}(X)$ for key spaces in homotopy theory. This includes results for pseudo-projective planes, with emphasis on lens spaces, as well as for Moore spaces $M(G, n)$ and twisted Eilenberg-MacLane spaces. We also discuss the structure of $\\mathcal{E}(X)$ for real, complex, and quaternionic projective spaces. Additionally, we present computations of $\\mathcal{E}_H(X)$ for rank one $H$-spaces, specifically $S^1$, $S^3$, $S^7$, $\\mathbb{R}P^3$, $\\mathbb{R}P^7$, and for certain higher-dimensional examples such as $S^3\\times S^7$, $S^3\\times S^3$, $S^7\\times S^7$, $SU(3)$, and $Sp(2)$. These cases illustrate the diversity and depth of self-equivalence groups across notable spaces in topology.",
       "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics.",
+      "noteLinks": [
+        {
+          "label": "Lecture Notes",
+          "url": "/notes/Sandip-Lecture_Notes-2.pdf"
+        }
+      ],
       "affiliation": "IISER Kolkata",
       "mail": "ss18ip021@iiserkol.ac.in",
       "durationMinutes": 60
@@ -92,6 +104,12 @@
       "notes": "/notes/Sandip-Lecture_Notes-3.pdf",
       "abstract": "Here we will briefly see the ingredients of rational homotopy theory, like rationalization of spaces, Sullivan (minimal) models, LS category, etc, and compute some basic examples. Finally, we will relate these to our case of self-homotopy equivalences, like how $\\mathcal{E}(X)$ and $\\mathcal{E}(X_\\mathcal{P})$ are related, some other results and possible open directions.",
       "about": "Sandip Samanta completed his PhD at the Indian Institute of Science Education and Research Kolkata (IISER Kolkata) under the supervision of Prof. Somnath Basu. He is currently a visiting student at IISER Kolkata. His research interests lie primarily in algebraic topology, with a focus on homotopy theory, loop spaces, and higher categorical structures. He also has keen interests in differential geometry and various aspects of combinatorics.",
+      "noteLinks": [
+        {
+          "label": "Lecture Notes",
+          "url": "/notes/Sandip-Lecture_Notes-3.pdf"
+        }
+      ],
       "affiliation": "IISER Kolkata",
       "mail": "ss18ip021@iiserkol.ac.in",
       "durationMinutes": 60

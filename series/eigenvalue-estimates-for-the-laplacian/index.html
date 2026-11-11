@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Eigenvalue Estimates for the Laplacian via Discretizations of Riemannian Manifolds with Bounded Ricci Curvature - Topology and Geometry Seminar</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.png">
+    <link rel="apple-touch-icon" href="/assets/logo.png">
+    <link rel="shortcut icon" href="/assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .talk-card .content {
+            max-width: 65%;
+        }
+
+        @media (max-width: 768px) {
+            .talk-card .content {
+                max-width: 100%;
+            }
+
+            .talk-card .zoom-details {
+                margin-top: 1rem;
+            }
+        }
+    </style>
+
+    <meta name="description" content="The spectrum of the Laplacian on a Riemannian manifold encodes important information about its underlying geometry. Understanding the relationship between…">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="j1eYMf5NSOfePEatQ6bxh-QUC9jJp-yGuhCeIRV55yU">
+    <meta name="theme-color" content="#1e3a8a">
+    <link rel="canonical" href="https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="alternate" type="application/rss+xml" title="Topology and Geometry Seminar feed" href="/feed.xml">
+    <link rel="alternate" type="text/calendar" title="Topology and Geometry Seminar calendar" href="/calendar.ics">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Topology and Geometry Seminar">
+    <meta property="og:title" content="Eigenvalue Estimates for the Laplacian via Discretizations of Riemannian Manifolds with Bounded Ricci Curvature - Topology and Geometry Seminar">
+    <meta property="og:description" content="The spectrum of the Laplacian on a Riemannian manifold encodes important information about its underlying geometry. Understanding the relationship between…">
+    <meta property="og:url" content="https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/">
+    <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="/assets/site.css?v=169846d1e944">
+    <link rel="stylesheet" href="/assets/theme.css?v=169846d1e944">
+    <script src="/assets/theme.js?v=169846d1e944"></script>
+    <script type="application/ld+json">[{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://topogeoiiitd.github.io/"},{"@type":"ListItem","position":2,"name":"Archive","item":"https://topogeoiiitd.github.io/archive/"},{"@type":"ListItem","position":3,"name":"Eigenvalue Estimates for the Laplacian via Discretizations of Riemannian Manifolds with Bounded Ricci Curvature","item":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/"}]},{"@context":"https://schema.org","@type":"EducationEvent","@id":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-1","name":"Introduction to Analysis on Riemannian Manifolds","description":"We will introduce the basic concepts of Riemannian geometry and analysis on manifolds, including the Laplace–Beltrami operator, its spectrum, and the variational characterization of eigenvalues. We will also discuss key results from comparison geometry and see how geometric quantities such as curvature, diameter, and injectivity radius influence the spectral properties of a manifold.","startDate":"2026-11-19T16:00:00+05:30","endDate":"2026-11-19T11:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-1","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-1"},"performer":{"@type":"Person","name":"Anusha Bhattacharya","url":"https://sites.google.com/view/anushabhattacharya/home","affiliation":{"@type":"Organization","name":"IISER Mohali"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","@id":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-2","name":"Graph Discretization of Riemannian Manifolds and Spectral Approximation","description":"We will investigate how the spectrum of the Laplace–Beltrami operator can be approximated using finite weighted graphs constructed from a Riemannian manifold. In particular, we will discuss a graph discretization scheme and establish spectral convergence under absolute Ricci curvature bound, a positive lower bound on the injectivity radius, and an upper diameter bound. This provides a connection between continuous spectral geometry and discrete spectral methods.","startDate":"2026-11-26T16:00:00+05:30","endDate":"2026-11-26T11:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-2","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-2"},"performer":{"@type":"Person","name":"Anusha Bhattacharya","url":"https://sites.google.com/view/anushabhattacharya/home","affiliation":{"@type":"Organization","name":"IISER Mohali"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}},{"@context":"https://schema.org","@type":"EducationEvent","@id":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-3","name":"Cheng-Type Eigenvalue Estimates for the Hodge Laplacian","description":"In the final lecture, we will extend our discussion from functions to differential forms and introduce the Hodge Laplacian. We will discuss Cheng-type upper bounds for its eigenvalues on closed Riemannian manifolds under a lower Ricci curvature bound, a positive injectivity radius bound, and an upper diameter bound. The main focus will be on the role of harmonic coordinates and geometric analysis in obtaining these estimates, highlighting the challenges that arise when extending classical…","startDate":"2026-12-03T16:00:00+05:30","endDate":"2026-12-03T11:30:00.000Z","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","url":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-3","location":{"@type":"VirtualLocation","url":"https://topogeoiiitd.github.io/series/eigenvalue-estimates-for-the-laplacian/#AB-3"},"performer":{"@type":"Person","name":"Anusha Bhattacharya","url":"https://sites.google.com/view/anushabhattacharya/home","affiliation":{"@type":"Organization","name":"IISER Mohali"}},"organizer":{"@type":"Organization","name":"Topology and Geometry Seminar","url":"https://topogeoiiitd.github.io/"}}]</script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Include Navbar -->
+    <div id="navbar-container"><!-- Enhanced Navbar with Modern Design -->
+<nav class="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white shadow-2xl fixed top-0 left-0 right-0 z-50 backdrop-blur-sm border-b border-blue-700/30"
+    role="navigation" aria-label="Main navigation">
+    <!-- Animated Background Overlay -->
+    <div
+        class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 opacity-0 transition-opacity duration-300 hover:opacity-100">
+    </div>
+
+    <div class="container mx-auto px-4 py-3 relative">
+        <div class="flex justify-between items-center">
+            <!-- Logo + Title with Hover Effects -->
+            <div class="flex items-center space-x-4 group">
+                <a href="/" class="flex items-center space-x-4 transform transition-all duration-300 hover:scale-105">
+                    <!-- Logo with Glow Effect -->
+                    <div class="relative">
+                        <div
+                            class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 to-cyan-400 opacity-0 group-hover:opacity-20 blur-xl transition-all duration-300">
+                        </div>
+                        <img src="/assets/logo.png" alt="Seminar Logo"
+                            class="h-14 w-14 rounded-full relative z-10 ring-2 ring-blue-400/50 group-hover:ring-cyan-400/70 transition-all duration-300"
+                            width="56" height="56" />
+                    </div>
+
+                    <!-- Title with Gradient Text -->
+                    <div class="leading-tight">
+                        <p
+                            class="text-xl font-bold bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent group-hover:from-cyan-200 group-hover:to-white transition-all duration-300">
+                            Topology & Geometry Seminar
+                        </p>
+                        <p
+                            class="text-sm mt-0.5 text-blue-200 group-hover:text-cyan-200 transition-colors duration-300">
+                            IIIT Delhi
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Desktop Nav Links with Advanced Hover Effects -->
+            <div class="hidden md:flex items-center space-x-1" id="desktop-nav">
+                <a href="/"
+                    class="nav-link relative px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10 hover:backdrop-blur-sm group">
+                    <span class="relative z-10">Home</span>
+                    <div
+                        class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/20 to-blue-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </a>
+                <a href="/#upcoming"
+                    class="nav-link relative px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10 hover:backdrop-blur-sm group">
+                    <span class="relative z-10">Upcoming</span>
+                    <div
+                        class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/20 to-blue-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </a>
+                <a href="/schedule/"
+                    class="nav-link relative px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10 hover:backdrop-blur-sm group">
+                    <span class="relative z-10">Schedule</span>
+                    <div
+                        class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/20 to-blue-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </a>
+                <a href="/archive/"
+                    class="nav-link relative px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10 hover:backdrop-blur-sm group">
+                    <span class="relative z-10">Archive</span>
+                    <div
+                        class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/20 to-blue-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </a>
+                <a href="/#organizers"
+                    class="nav-link relative px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10 hover:backdrop-blur-sm group">
+                    <span class="relative z-10">Organizers</span>
+                    <div
+                        class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/20 to-blue-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                </a>
+                <button type="button"
+                    class="theme-toggle relative inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 border border-blue-300/50 transition-all duration-300 hover:bg-white/20"
+                    aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+                    <span class="theme-toggle-label sr-only">Dark mode</span>
+                </button>
+            </div>
+
+            <!-- Mobile theme and menu controls -->
+            <div class="md:hidden flex items-center space-x-1">
+                <button type="button"
+                    class="theme-toggle theme-toggle-mobile relative p-2 rounded-lg bg-white/10 border border-blue-300/50 hover:bg-white/20 transition-all duration-300"
+                    aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+                    <span class="theme-toggle-label sr-only">Dark mode</span>
+                </button>
+                <button
+                    class="focus:outline-none group relative p-2 rounded-lg hover:bg-white/10 transition-all duration-300"
+                    id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                    <div
+                        class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/20 to-blue-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    </div>
+                    <i
+                        class="fas fa-bars text-xl relative z-10 transform group-hover:scale-110 transition-transform duration-300"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enhanced Mobile Nav Links -->
+    <div id="mobile-nav"
+        class="hidden md:hidden bg-gradient-to-b from-blue-800/95 to-blue-900/95 backdrop-blur-lg border-t border-blue-700/50">
+        <div class="flex flex-col space-y-1 px-4 py-4">
+            <a href="/"
+                class="mobile-nav-link relative px-4 py-3 rounded-lg transition-all duration-300 hover:bg-white/10 group">
+                <span class="flex items-center space-x-3">
+                    <i class="fas fa-home w-4"></i>
+                    <span>Home</span>
+                </span>
+                <div
+                    class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/10 to-blue-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                </div>
+            </a>
+            <a href="/#upcoming"
+                class="mobile-nav-link relative px-4 py-3 rounded-lg transition-all duration-300 hover:bg-white/10 group">
+                <span class="flex items-center space-x-3">
+                    <i class="fas fa-calendar-alt w-4"></i>
+                    <span>Upcoming</span>
+                </span>
+                <div
+                    class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/10 to-blue-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                </div>
+            </a>
+            <a href="/schedule/"
+                class="mobile-nav-link relative px-4 py-3 rounded-lg transition-all duration-300 hover:bg-white/10 group">
+                <span class="flex items-center space-x-3">
+                    <i class="fas fa-list w-4"></i>
+                    <span>Schedule</span>
+                </span>
+                <div
+                    class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/10 to-blue-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                </div>
+            </a>
+            <a href="/archive/"
+                class="mobile-nav-link relative px-4 py-3 rounded-lg transition-all duration-300 hover:bg-white/10 group">
+                <span class="flex items-center space-x-3">
+                    <i class="fas fa-archive w-4"></i>
+                    <span>Archive</span>
+                </span>
+                <div
+                    class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/10 to-blue-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                </div>
+            </a>
+            <a href="/#organizers"
+                class="mobile-nav-link relative px-4 py-3 rounded-lg transition-all duration-300 hover:bg-white/10 group">
+                <span class="flex items-center space-x-3">
+                    <i class="fas fa-users w-4"></i>
+                    <span>Organizers</span>
+                </span>
+                <div
+                    class="absolute inset-0 rounded-lg bg-gradient-to-r from-cyan-400/10 to-blue-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                </div>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Enhanced Styles for Additional Effects -->
+<style>
+    /* Smooth scroll offset for fixed navbar */
+    html {
+        scroll-padding-top: 80px;
+    }
+
+    /* Active page indicator */
+    .nav-link.active,
+    .mobile-nav-link.active {
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    .nav-link.active::before,
+    .mobile-nav-link.active::before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 2px;
+        background: linear-gradient(to right, #22d3ee, #3b82f6);
+        border-radius: 1px;
+    }
+
+    /* Mobile nav link active indicator */
+    .mobile-nav-link.active::before {
+        left: 16px;
+        bottom: 50%;
+        transform: translateY(50%);
+        width: 3px;
+        height: 20px;
+    }
+
+    /* Self-contained theme icon: visible even if external icon fonts fail. */
+    .theme-toggle::before {
+        content: '☾';
+        position: relative;
+        z-index: 10;
+        font-size: 1.15rem;
+        line-height: 1;
+    }
+
+    .theme-toggle[aria-pressed="true"]::before {
+        content: '☀';
+    }
+
+    .theme-toggle-mobile {
+        min-width: 2.5rem;
+        min-height: 2.5rem;
+        justify-content: center;
+    }
+
+    /* Smooth animations */
+    .nav-link,
+    .mobile-nav-link {
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Hover underline effect for desktop */
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: linear-gradient(to right, #22d3ee, #3b82f6);
+        transition: width 0.3s ease;
+    }
+
+    .nav-link:hover::after {
+        width: 100%;
+    }
+</style>
+
+<!-- JavaScript for Enhanced Functionality -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Highlight active page
+        const currentPath = window.location.pathname;
+        const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
+
+        navLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            if (href === currentPath || (currentPath === '/' && href === '/')) {
+                link.classList.add('active');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navbar
+        let lastScroll = 0;
+        const navbar = document.querySelector('nav');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll > 100) {
+                navbar.style.backgroundColor = 'rgba(30, 58, 138, 0.95)';
+                navbar.style.backdropFilter = 'blur(20px)';
+            } else {
+                navbar.style.backgroundColor = '';
+                navbar.style.backdropFilter = '';
+            }
+
+            lastScroll = currentScroll;
+        });
+    });
+</script>
+</div>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16 pt-32">
+        <div class="container mx-auto px-4 text-center">
+            <h1 id="series-title" class="text-3xl md:text-4xl font-bold mb-4">Eigenvalue Estimates for the Laplacian via Discretizations of Riemannian Manifolds with Bounded Ricci Curvature</h1>
+            <p class="text-xl md:text-2xl mb-8"></p>
+            <div class="bg-white text-blue-900 inline-block px-6 py-3 rounded-lg shadow-lg">
+                <p class="font-semibold" id="speaker-name">Speaker: Anusha Bhattacharya</p>
+                <p class="text-lg" id="speaker-affiliation">IISER Mohali</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8 flex-grow">
+        <!-- Series Overview -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-blue-800 border-b-2 border-blue-200 pb-2">About the Series</h2>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p id="series-description" class="text-gray-700 mb-4">The spectrum of the Laplacian on a Riemannian manifold encodes important information about its underlying geometry. Understanding the relationship between geometric properties and the spectral behaviour of a Riemannian manifold is therefore a fundamental problem in spectral geometry. In this three-part lecture series, we will explore this relationship, beginning with the basic tools of analysis on Riemannian manifolds and progressing to eigenvalue approximation and comparison results under geometric constraints. Together, these lectures aim to illustrate how geometric assumptions provide quantitative control over the spectrum of differential operators and how continuous and discrete approaches complement each other in the study of spectral geometry.</p>
+                <p id="series-prerequisites" class="text-gray-700 hidden"></p>
+            </div>
+        </section>
+
+        <!-- Schedule -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-blue-800 border-b-2 border-blue-200 pb-2">Schedule</h2>
+            <div id="series-schedule" class="space-y-8"><div id="AB-1" class="talk-card bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500 scroll-mt-24">
+    <div class="flex flex-col md:flex-row justify-between gap-4">
+      <div class="content">
+        <h3 class="text-xl font-bold text-blue-700">Introduction to Analysis on Riemannian Manifolds</h3>
+        <p class="text-gray-600 mb-2">Part 1 of the series</p>
+        <p class="text-gray-700 mb-2 flex items-center"><i class="far fa-calendar-alt mr-2"></i>Thursday, November 19, 2026</p>
+        <p class="text-gray-700 mb-4 flex items-center"><i class="far fa-clock mr-2"></i>04:00 PM IST</p>
+        <p class="text-gray-700 mb-4"><strong>Abstract:</strong> We will introduce the basic concepts of Riemannian geometry and analysis on manifolds, including the Laplace–Beltrami operator, its spectrum, and the variational characterization of eigenvalues. We will also discuss key results from comparison geometry and see how geometric quantities such as curvature, diameter, and injectivity radius influence the spectral properties of a manifold.</p>
+        
+      </div>
+      <div class="zoom-details w-full md:w-1/3"><div class="bg-blue-50 p-4 rounded-lg">
+    <h4 class="font-bold mb-2 text-blue-800">Zoom Meeting</h4>
+    <p class="mb-2"><span class="font-medium text-gray-700">Link:</span> <a href="https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Join Meeting</a></p>
+    <p class="mb-2"><span class="font-medium text-gray-700">Meeting ID:</span> 997 1572 6257</p>
+    <p><span class="font-medium text-gray-700">Passcode:</span> 1729</p>
+  </div></div>
+    </div>
+  </div><div id="AB-2" class="talk-card bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500 scroll-mt-24">
+    <div class="flex flex-col md:flex-row justify-between gap-4">
+      <div class="content">
+        <h3 class="text-xl font-bold text-blue-700">Graph Discretization of Riemannian Manifolds and Spectral Approximation</h3>
+        <p class="text-gray-600 mb-2">Part 2 of the series</p>
+        <p class="text-gray-700 mb-2 flex items-center"><i class="far fa-calendar-alt mr-2"></i>Thursday, November 26, 2026</p>
+        <p class="text-gray-700 mb-4 flex items-center"><i class="far fa-clock mr-2"></i>04:00 PM IST</p>
+        <p class="text-gray-700 mb-4"><strong>Abstract:</strong> We will investigate how the spectrum of the Laplace–Beltrami operator can be approximated using finite weighted graphs constructed from a Riemannian manifold. In particular, we will discuss a graph discretization scheme and establish spectral convergence under absolute Ricci curvature bound, a positive lower bound on the injectivity radius, and an upper diameter bound. This provides a connection between continuous spectral geometry and discrete spectral methods.</p>
+        
+      </div>
+      <div class="zoom-details w-full md:w-1/3"><div class="bg-blue-50 p-4 rounded-lg">
+    <h4 class="font-bold mb-2 text-blue-800">Zoom Meeting</h4>
+    <p class="mb-2"><span class="font-medium text-gray-700">Link:</span> <a href="https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Join Meeting</a></p>
+    <p class="mb-2"><span class="font-medium text-gray-700">Meeting ID:</span> 997 1572 6257</p>
+    <p><span class="font-medium text-gray-700">Passcode:</span> 1729</p>
+  </div></div>
+    </div>
+  </div><div id="AB-3" class="talk-card bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500 scroll-mt-24">
+    <div class="flex flex-col md:flex-row justify-between gap-4">
+      <div class="content">
+        <h3 class="text-xl font-bold text-blue-700">Cheng-Type Eigenvalue Estimates for the Hodge Laplacian</h3>
+        <p class="text-gray-600 mb-2">Part 3 of the series</p>
+        <p class="text-gray-700 mb-2 flex items-center"><i class="far fa-calendar-alt mr-2"></i>Thursday, December 3, 2026</p>
+        <p class="text-gray-700 mb-4 flex items-center"><i class="far fa-clock mr-2"></i>04:00 PM IST</p>
+        <p class="text-gray-700 mb-4"><strong>Abstract:</strong> In the final lecture, we will extend our discussion from functions to differential forms and introduce the Hodge Laplacian. We will discuss Cheng-type upper bounds for its eigenvalues on closed Riemannian manifolds under a lower Ricci curvature bound, a positive injectivity radius bound, and an upper diameter bound. The main focus will be on the role of harmonic coordinates and geometric analysis in obtaining these estimates, highlighting the challenges that arise when extending classical eigenvalue comparison results from functions to differential forms.</p>
+        
+      </div>
+      <div class="zoom-details w-full md:w-1/3"><div class="bg-blue-50 p-4 rounded-lg">
+    <h4 class="font-bold mb-2 text-blue-800">Zoom Meeting</h4>
+    <p class="mb-2"><span class="font-medium text-gray-700">Link:</span> <a href="https://iiitd-ac-in.zoom.us/j/99715726257?pwd=2b9vl3aSfRUHjCtksbeeuZ0bi8b5jE.1" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Join Meeting</a></p>
+    <p class="mb-2"><span class="font-medium text-gray-700">Meeting ID:</span> 997 1572 6257</p>
+    <p><span class="font-medium text-gray-700">Passcode:</span> 1729</p>
+  </div></div>
+    </div>
+  </div></div>
+        </section>
+
+
+
+        <!-- Speaker Bio -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-blue-800 border-b-2 border-blue-200 pb-2">About the Speaker</h2>
+            <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden">
+                    <div class="w-full h-full bg-blue-100 flex items-center justify-center text-blue-800">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                </div>
+                <h3 id="speaker-bio-name" class="text-xl font-bold"><a id="speaker-name-link" href="https://sites.google.com/view/anushabhattacharya/home" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 transition-colors duration-200">Anusha Bhattacharya</a></h3>
+                <p id="speaker-bio-affiliation" class="text-gray-600 mb-4">IISER Mohali</p>
+                <p id="speaker-bio-description" class="text-gray-700 text-justify mb-4">Dr. Anusha Bhattacharya is a mathematician at IISER Mohali working in spectral geometry and geometric analysis, with a focus on studying manifolds through graph and simplicial discretizations.</p>
+
+                <!-- Contact Information -->
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4 text-sm">
+                    <div class="flex items-center">
+                        <i class="fas fa-envelope mr-2 text-blue-600"></i>
+                        <span>Email: <a id="speaker-email" href="mailto:anushabhattacharya20@gmail.com" class="text-blue-600 hover:underline">anushabhattacharya20@gmail.com</a></span>
+                    </div>
+                    <div id="speaker-personal-page-container" class="flex items-center">
+                        <i class="fas fa-globe mr-2 text-blue-600"></i>
+                        <span>Personal Page: <a id="speaker-personal-page" href="https://sites.google.com/view/anushabhattacharya/home" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Visit Page</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer - stays at bottom -->
+    <div id="footer-container" class="mt-auto"><!-- Enhanced Footer -->
+<footer class="relative bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
+
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute bottom-0 right-1/4 w-64 h-64 bg-indigo-500/10 rounded-full blur-2xl animate-pulse"
+            style="animation-delay: 1s;"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-cyan-500/5 rounded-full blur-xl animate-pulse"
+            style="animation-delay: 2s;"></div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
+
+    <div class="relative z-10">
+        <div class="container mx-auto px-6 py-12">
+
+            <!-- Main Content -->
+            <div class="flex flex-col md:flex-row gap-12 mb-12">
+
+                <!-- Seminar Info -->
+                <div class="flex-1">
+                    <a href="/"
+                        class="group flex items-center space-x-4 mb-6 transition-transform duration-300 hover:scale-105">
+                        <div class="relative w-16 aspect-square rounded-full overflow-hidden flex-shrink-0">
+                            <img src="/assets/logo.png" alt="Topology and Geometry Seminar Logo"
+                                class="w-full h-full object-cover rounded-full ring-2 ring-blue-400/40 group-hover:ring-cyan-400/60 transition"
+                                loading="lazy" width="64" height="64">
+                        </div>
+
+                        <div>
+                            <h2
+                                class="text-2xl font-bold bg-gradient-to-r from-white via-blue-200 to-cyan-200 bg-clip-text text-transparent">
+                                Topology & Geometry Seminar
+                            </h2>
+                            <p class="text-blue-300">IIIT Delhi</p>
+                        </div>
+                    </a>
+
+                    <!-- YouTube Button (Perfect Circle) -->
+                    <a href="https://youtube.com/playlist?list=PLrcy-sY3vswEAbpCADmD-RvJVptfdWEis&si=pkmdTsg3s1htJ2wR"
+                        target="_blank" rel="noopener noreferrer" aria-label="YouTube Playlist" class="group relative flex items-center justify-center w-12 h-12 rounded-full
+                              bg-slate-800/60 hover:bg-gradient-to-r hover:from-red-600 hover:to-red-500
+                              transition-all duration-300 hover:scale-110 hover:-translate-y-1">
+
+                        <i class="fab fa-youtube text-xl text-red-400 group-hover:text-white transition-colors"
+                            aria-hidden="true"></i>
+
+                        <span
+                            class="absolute inset-0 rounded-full bg-red-500/20 opacity-0 group-hover:opacity-100 blur transition"></span>
+                    </a>
+                </div>
+
+                <!-- Quick Links -->
+                <nav class="flex-1" aria-label="Footer Navigation">
+                    <h3
+                        class="text-xl font-bold mb-6 bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent">
+                        Quick Links
+                    </h3>
+
+                    <div class="space-y-3">
+                        <a href="/"
+                            class="footer-link group flex items-center space-x-2 text-slate-300 hover:text-cyan-300">
+                            <i class="fas fa-home w-4 text-blue-400 group-hover:text-cyan-400" aria-hidden="true"></i>
+                            <span class="group-hover:translate-x-1 transition">Home</span>
+                        </a>
+
+                        <a href="/schedule/"
+                            class="footer-link group flex items-center space-x-2 text-slate-300 hover:text-cyan-300">
+                            <i class="fas fa-list w-4 text-blue-400 group-hover:text-cyan-400" aria-hidden="true"></i>
+                            <span class="group-hover:translate-x-1 transition">Schedule</span>
+                        </a>
+
+                        <a href="/archive/"
+                            class="footer-link group flex items-center space-x-2 text-slate-300 hover:text-cyan-300">
+                            <i class="fas fa-archive w-4 text-blue-400 group-hover:text-cyan-400"
+                                aria-hidden="true"></i>
+                            <span class="group-hover:translate-x-1 transition">Archive</span>
+                        </a>
+
+                        <a href="https://forms.gle/6RyaS3FkSeQ5PbyeA" target="_blank" rel="noopener noreferrer"
+                            class="footer-link group flex items-center space-x-2 text-slate-300 hover:text-cyan-300">
+                            <i class="fas fa-envelope w-4 text-blue-400 group-hover:text-cyan-400"
+                                aria-hidden="true"></i>
+                            <span class="group-hover:translate-x-1 transition">Join Mailing Group</span>
+                        </a>
+                    </div>
+                </nav>
+
+                <!-- Contact -->
+                <address class="flex-1 not-italic">
+                    <h3
+                        class="text-xl font-bold mb-6 bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent">
+                        Contact
+                    </h3>
+
+                    <div class="space-y-2 text-slate-300">
+                        <p>
+                            <a href="mailto:sachchidanand@iiitd.ac.in" class="text-cyan-300 hover:underline">
+                                sachchidanand@iiitd.ac.in
+                            </a>
+                        </p>
+                        <p>
+                            <a href="mailto:samantasandip23@gmail.com" class="text-cyan-300 hover:underline">
+                                samantasandip23@gmail.com
+                            </a>
+                        </p>
+                        <p>
+                            <a href="mailto:aritra@ksom.res.in" class="text-cyan-300 hover:underline">
+                                aritra@ksom.res.in
+                            </a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+
+            <!-- Divider -->
+            <div class="h-px bg-gradient-to-r from-transparent via-cyan-500/60 to-transparent mb-8"></div>
+
+            <!-- Bottom -->
+            <div class="text-center text-slate-400 text-sm">
+                © 2026 Topology & Geometry Seminar, IIIT Delhi. All rights reserved.
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<!-- Footer Enhancements -->
+<style>
+    .footer-link {
+        position: relative;
+    }
+
+    .footer-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 0;
+        height: 1px;
+        background: linear-gradient(to right, #22d3ee, #3b82f6);
+        transition: width 0.3s ease;
+    }
+
+    .footer-link:hover::after {
+        width: 100%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .animate-pulse {
+            animation: none;
+        }
+    }
+</style>
+</div>
+
+    <script>
+        // Get URL parameters to determine which series to load
+        function getSeriesFromPath() {
+            // Extract series identifier from URL path
+            // Examples:
+            // /series/kim/ -> 'kim'
+            // /series/kim/index.html -> 'kim'
+            // /series/sergio/ -> 'sergio'
+            const pathParts = window.location.pathname.split('/').filter(part => part);
+
+            // Find 'series' in path and get the next part
+            const seriesIndex = pathParts.indexOf('series');
+            if (seriesIndex !== -1 && pathParts[seriesIndex + 1]) {
+                return pathParts[seriesIndex + 1].replace('.html', '');
+            }
+
+            // Fallback: check for query parameter (backward compatibility)
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('series') || 'kim'; // Default to kim
+        }
+
+        // This single entry is filled automatically by scripts/build.js.
+        // Adding a new data/*.json file never requires editing this template.
+        const seriesConfig = {
+            'eigenvalue-estimates-for-the-laplacian': {
+                jsonFile: '/data/anusha.json',
+                seriesName: 'Eigenvalue Estimates for the Laplacian via Discretizations of Riemannian Manifolds with Bounded Ricci Curvature'
+            }
+        };
+
+        // --- Added: shared IST-aware date/time helpers, and a "has this talk concluded?" check ---
+        function parseISTDateTime(dateStr, timeStr) {
+            if (!dateStr || !timeStr) return null;
+            const cleanTime = timeStr.replace(/\s*IST\s*/i, '').trim();
+            const dt = new Date(`${dateStr}T${cleanTime}:00+05:30`);
+            return isNaN(dt.getTime()) ? null : dt;
+        }
+
+        function talkNotes(talk) {
+            const source = Array.isArray(talk.noteLinks) ? talk.noteLinks
+                : Array.isArray(talk.notes) ? talk.notes
+                : (talk.notes ? [talk.notes] : []);
+            const entries = source
+                .map(item => (typeof item === 'string' ? { label: '', url: item } : item))
+                .filter(item => item && item.url);
+            return entries.map((item, index) => ({
+                url: item.url,
+                label: item.label || (entries.length > 1 ? `Lecture Notes ${index + 1}` : 'Lecture Notes')
+            }));
+        }
+
+        function formatTalkDate(dateStr, timeStr) {
+            const dt = parseISTDateTime(dateStr, timeStr);
+            if (!dt) return dateStr || 'Date TBA';
+            return dt.toLocaleDateString('en-US', {
+                timeZone: 'Asia/Kolkata',
+                weekday: 'long',
+                month: 'long',
+                day: 'numeric',
+                year: 'numeric'
+            });
+        }
+
+        function formatTalkTime(dateStr, timeStr) {
+            const dt = parseISTDateTime(dateStr, timeStr);
+            if (!dt) return timeStr || 'Time TBA';
+
+            const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            const istClock = dt.toLocaleTimeString('en-US', {
+                timeZone: 'Asia/Kolkata',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            const istFormatted = `${istClock} IST`;
+            if (!userTimeZone || userTimeZone === 'Asia/Kolkata' || userTimeZone === 'Asia/Calcutta') {
+                return istFormatted;
+            }
+
+            const localDateTime = dt.toLocaleString('en-US', {
+                timeZone: userTimeZone,
+                weekday: 'long',
+                month: 'long',
+                day: 'numeric',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                timeZoneName: 'short'
+            });
+            return `${istFormatted} <span class="text-gray-400 text-sm font-normal">(${localDateTime} in your time zone)</span>`;
+        }
+
+        function hasTalkConcluded(talk) {
+            const start = parseISTDateTime(talk.date, talk.time);
+            // Keep the meeting information visible throughout the lecture.
+            if (!start) return false;
+            const configuredDuration = Number(talk.durationMinutes);
+            const durationMinutes = Number.isFinite(configuredDuration) && configuredDuration > 0
+                ? configuredDuration
+                : 60;
+            const end = new Date(start.getTime() + durationMinutes * 60_000);
+            return new Date() >= end;
+        }
+        // --- End added helpers ---
+
+        // Load navbar component
+        async function loadNavbar() {
+            try {
+                const response = await fetch('/components/navbar.html', { cache: 'no-store' });
+                const navbarHtml = await response.text();
+                document.getElementById('navbar-container').innerHTML = navbarHtml;
+                initializeNavbar();
+            } catch (error) {
+                console.error('Error loading navbar:', error);
+                document.getElementById('navbar-container').innerHTML = `
+                <nav class="bg-blue-800 text-white shadow-lg fixed top-0 left-0 right-0 z-50">
+                    <div class="container mx-auto px-4 py-3">
+                        <h1 class="text-xl font-bold">Topology & Geometry Seminar</h1>
+                    </div>
+                </nav>
+            `;
+            }
+        }
+
+        // Initialize navbar functionality
+        function initializeNavbar() {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileNav = document.getElementById('mobile-nav');
+
+            if (mobileMenuBtn && mobileNav) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    const isExpanded = mobileNav.classList.toggle('hidden');
+                    mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
+                });
+            }
+        }
+
+        // load footer component
+        async function loadFooter() {
+            try {
+                const response = await fetch('/components/footer.html', { cache: 'no-store' });
+                const footerHtml = await response.text();
+                document.getElementById('footer-container').innerHTML = footerHtml;
+            } catch (error) {
+                console.error('Error loading footer:', error);
+                document.getElementById('footer-container').innerHTML = `
+                <footer class="bg-blue-900 text-white py-8 mt-auto">
+                    <div class="container mx-auto px-4">
+                        <div class="flex flex-col md:flex-row justify-between">
+                            <div class="mb-6 md:mb-0">
+                                <h2 class="text-xl font-bold mb-2">Topology and Geometry Seminar</h2>
+                                <p>IIIT Delhi</p>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-2">Contact</h3>
+                                <p>Email: <a href="mailto:sachchidanand@iiitd.ac.in"
+                                        class="text-blue-200 hover:underline">sachchidanand@iiitd.ac.in</a></p>
+                            </div>
+                        </div>
+                        <div class="mt-8 pt-6 border-t border-blue-800 text-center text-sm text-blue-200">
+                            <p>© 2025 Topology and Geometry Seminar, IIIT Delhi. All rights reserved.</p>
+                        </div>
+                    </div>
+                </footer>
+            `;
+            }
+        }
+
+        // Fetch and render series talks
+        async function fetchAndRenderSeries() {
+            try {
+                // Get series identifier from URL path
+                const seriesId = getSeriesFromPath();
+                const config = seriesConfig[seriesId];
+
+                if (!config) {
+                    throw new Error(`Unknown series: ${seriesId}`);
+                }
+
+                const response = await fetch(config.jsonFile);
+                const data = await response.json();
+
+                // Check if using new optimized structure (object with series/talks) or old structure (array)
+                const isOptimized = data.series && data.talks;
+
+                let seriesInfo, seriesTalks;
+
+                if (isOptimized) {
+                    // New optimized structure
+                    seriesInfo = data.series;
+                    seriesTalks = data.talks.sort((a, b) => new Date(a.date) - new Date(b.date));
+                } else {
+                    // Old structure (array of talks)
+                    seriesTalks = data.filter(talk =>
+                        talk.series === config.seriesName
+                    ).sort((a, b) => new Date(a.date) - new Date(b.date));
+
+                    if (seriesTalks.length === 0) {
+                        throw new Error(`No talks found for series: ${config.seriesName}`);
+                    }
+
+                    // Extract series info from first talk
+                    const firstTalk = seriesTalks[0];
+                    seriesInfo = {
+                        name: firstTalk.series,
+                        speaker: firstTalk.speaker,
+                        affiliation: firstTalk.affiliation,
+                        personalPage: firstTalk.personalPage,
+                        mail: firstTalk.mail,
+                        description: firstTalk.description,
+                        about: firstTalk.about || "",
+                        zoomLink: firstTalk.zoomLink || "",
+                        meetingId: firstTalk.meetingId || "",
+                        passcode: firstTalk.passcode || "",
+                        references: []
+                    };
+
+                    // Collect references from all talks (old structure)
+                    seriesTalks.forEach(talk => {
+                        if (talk.references) {
+                            seriesInfo.references = seriesInfo.references || [];
+                            seriesInfo.references.push(...talk.references);
+                        }
+                    });
+                }
+
+                const speakerName = seriesInfo.speaker;
+                const speakerAffiliation = seriesInfo.affiliation;
+                const speakerAbout = seriesInfo.about || "";
+
+                // Update page title
+                document.getElementById('page-title').textContent = `${seriesInfo.name} - ${speakerName} - IIIT Delhi`;
+
+                // Update hero section
+                document.getElementById('series-title').textContent = seriesInfo.name;
+                document.getElementById('speaker-name').textContent = `Speaker: ${speakerName}`;
+                document.getElementById('speaker-affiliation').textContent = speakerAffiliation;
+
+                // Update series description (parse HTML from JSON)
+                const descriptionElement = document.getElementById('series-description');
+                descriptionElement.innerHTML = seriesInfo.description || 'Loading series description...';
+
+                // Prerequisites are optional and belong to the individual series.
+                const prerequisitesElement = document.getElementById('series-prerequisites');
+                if (seriesInfo.prerequisites && seriesInfo.prerequisites.trim()) {
+                    prerequisitesElement.innerHTML = `<strong>Prerequisites:</strong> ${seriesInfo.prerequisites}`;
+                    prerequisitesElement.classList.remove('hidden');
+                }
+
+                // Update speaker bio section
+                document.getElementById('speaker-bio-affiliation').textContent = speakerAffiliation;
+                document.getElementById('speaker-bio-description').textContent = speakerAbout;
+
+                // Update speaker name with link
+                const speakerNameLink = document.getElementById('speaker-name-link');
+                speakerNameLink.textContent = speakerName;
+
+                // Update email
+                const emailElement = document.getElementById('speaker-email');
+                if (seriesInfo.mail) {
+                    emailElement.href = `mailto:${seriesInfo.mail}`;
+                    emailElement.textContent = seriesInfo.mail;
+                } else {
+                    emailElement.textContent = 'Not available';
+                    emailElement.removeAttribute('href');
+                }
+
+                // Update personal page link if available
+                const personalPageUrl = seriesInfo.personalPage || seriesInfo.homepage || seriesInfo.website;
+                if (personalPageUrl) {
+                    const personalPageContainer = document.getElementById('speaker-personal-page-container');
+                    const personalPageElement = document.getElementById('speaker-personal-page');
+
+                    personalPageElement.href = personalPageUrl;
+                    personalPageContainer.classList.remove('hidden');
+
+                    // Also make the speaker name clickable
+                    speakerNameLink.href = personalPageUrl;
+                    speakerNameLink.target = '_blank';
+                } else {
+                    speakerNameLink.removeAttribute('href');
+                    speakerNameLink.classList.add('cursor-default');
+                }
+
+                // Update references from the JSON data
+                const booksElement = document.getElementById('books-list');
+                const papersElement = document.getElementById('papers-list');
+                const notesElement = document.getElementById('notes-list');
+                const booksContainer = document.getElementById('books-container');
+                const papersContainer = document.getElementById('papers-container');
+                const notesContainer = document.getElementById('notes-container');
+                const referencesSection = document.getElementById('references-section');
+
+                // Get references (handle both old and new structure)
+                const allReferences = seriesInfo.references || [];
+
+                // Remove duplicates and categorize
+                const uniqueReferences = allReferences.filter((ref, index, self) =>
+                    index === self.findIndex(r => r.citation === ref.citation)
+                );
+
+                const books = uniqueReferences.filter(ref => ref.type === 'book');
+                const papers = uniqueReferences.filter(ref => ref.type === 'paper');
+                const scripts = uniqueReferences.filter(ref => ref.type === 'script');
+
+                // Only show sections if they have content
+                let hasAnyReferences = false;
+
+                if (books.length > 0) {
+                    booksElement.innerHTML = books.map(ref =>
+                        ref.url ? `<li><a href="${ref.url}" class="text-blue-600 hover:underline" target="_blank">${ref.citation}</a></li>`
+                            : `<li>${ref.citation}</li>`
+                    ).join('');
+                    booksContainer.classList.remove('hidden');
+                    hasAnyReferences = true;
+                }
+
+                if (papers.length > 0) {
+                    papersElement.innerHTML = papers.map(ref =>
+                        ref.url ? `<li><a href="${ref.url}" class="text-blue-600 hover:underline" target="_blank">${ref.citation}</a></li>`
+                            : `<li>${ref.citation}</li>`
+                    ).join('');
+                    papersContainer.classList.remove('hidden');
+                    hasAnyReferences = true;
+                }
+
+                if (scripts.length > 0) {
+                    notesElement.innerHTML = scripts.map(ref =>
+                        ref.url ? `<li><a href="${ref.url}" class="text-blue-600 hover:underline" target="_blank">${ref.citation}</a></li>`
+                            : `<li>${ref.citation}</li>`
+                    ).join('');
+                    notesContainer.classList.remove('hidden');
+                    hasAnyReferences = true;
+                }
+
+                // Show the entire References section only if there are any references
+                if (hasAnyReferences) {
+                    referencesSection.classList.remove('hidden');
+                }
+
+                // Render schedule with proper abstract formatting
+                document.getElementById('series-schedule').innerHTML = seriesTalks.map(talk => {
+                    const formattedAbstract = talk.abstract ? talk.abstract.replace(/\n/g, '<br>') : '';
+
+                    // Use series-level zoom info if talk-level is not provided (for optimized structure)
+                    const zoomLink = talk.zoomLink || seriesInfo.zoomLink || '';
+                    const meetingId = talk.meetingId || seriesInfo.meetingId || 'TBA';
+                    const passcode = talk.passcode || seriesInfo.passcode || 'TBA';
+
+                    // --- Added: decide whether this specific talk's Zoom info should still be clickable ---
+                    const talkConcluded = hasTalkConcluded(talk);
+
+                    const zoomDetailsHtml = talkConcluded ? `
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <h4 class="font-bold mb-2 text-gray-600">
+                                <i class="fas fa-check-circle mr-1"></i> Talk Concluded
+                            </h4>
+                            <p class="text-gray-500 text-sm">
+                                ${talk.recording ? 'This talk has ended — see the recording.' : 'This talk has ended.'}
+                            </p>
+                        </div>
+                    ` : `
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <h4 class="font-bold mb-2 text-blue-800">Zoom Meeting</h4>
+                            <p class="mb-2">
+                                <span class="font-medium text-gray-700">Link:</span> 
+                                <a href="${zoomLink || '#'}" 
+                                   class="text-blue-600 hover:underline" 
+                                   target="_blank">
+                                   ${zoomLink ? 'Join Meeting' : 'TBA'}
+                                </a>
+                            </p>
+                            <p class="mb-2">
+                                <span class="font-medium text-gray-700">Meeting ID:</span> 
+                                ${meetingId}
+                            </p>
+                            <p>
+                                <span class="font-medium text-gray-700">Passcode:</span> 
+                                ${passcode}
+                            </p>
+                        </div>
+                    `;
+                    // --- End added block ---
+
+                    return `
+                    <div id="${talk.id}" class="talk-card bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-500 scroll-mt-24">
+                        <div class="flex flex-col md:flex-row justify-between gap-4">
+                            <div class="content">
+                                <h3 class="text-xl font-bold text-blue-700">${talk.title}</h3>
+                                ${talk.part ? `<p class="text-gray-600 mb-2">${talk.part} of the series</p>` : ''}
+                                <p class="text-gray-700 mb-2 flex items-center">
+                                    <i class="far fa-calendar-alt mr-2"></i>
+                                    ${formatTalkDate(talk.date, talk.time)}
+                                </p>
+                                <p class="text-gray-700 mb-4 flex items-center">
+                                    <i class="far fa-clock mr-2"></i>
+                                    ${formatTalkTime(talk.date, talk.time)}
+                                </p>
+                                ${formattedAbstract ? `<p class="text-gray-700 mb-4"><strong>Abstract:</strong> ${formattedAbstract}</p>` : ''}
+                                ${(talk.recording || talkNotes(talk).length) ? `
+                                    <div class="mt-4 pt-4 border-t border-gray-200">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Post-Lecture Resources:</h4>
+                                        <div class="flex flex-wrap gap-3">
+                                            ${talk.recording ? `
+                                                <a href="${talk.recording}" 
+                                                   class="inline-flex items-center px-3 py-2 bg-red-100 text-red-800 rounded-lg hover:bg-red-200 transition-colors" 
+                                                   target="_blank">
+                                                    <i class="fas fa-video mr-2"></i>
+                                                    Watch Recording
+                                                </a>
+                                            ` : ''}
+                                            ${talkNotes(talk).map(note => `
+                                                <a href="${note.url}" 
+                                                   class="inline-flex items-center px-3 py-2 bg-green-100 text-green-800 rounded-lg hover:bg-green-200 transition-colors" 
+                                                   target="_blank">
+                                                    <i class="fas fa-file-alt mr-2"></i>
+                                                    ${note.label}
+                                                </a>
+                                            `).join('')}
+                                        </div>
+                                    </div>
+                                ` : ''}
+                            </div>
+                            <div class="zoom-details w-full md:w-1/3">
+                                ${zoomDetailsHtml}
+                            </div>
+                        </div>
+                    </div>
+                `}).join('');
+
+            } catch (error) {
+                console.error('Error fetching talks:', error);
+
+                // The build pre-renders the page, so keep that useful content if JSON refresh fails.
+                if (document.getElementById('series-title').textContent.includes('Loading')) {
+                    document.getElementById('series-title').textContent = 'Error Loading Series';
+                    document.getElementById('series-schedule').innerHTML = '<p class="text-red-600">Error loading talks. Please try again later.</p>';
+                }
+            }
+        }
+
+        // Render MathJax after content is loaded
+        function renderMathJax() {
+            if (window.MathJax && window.MathJax.typesetPromise) {
+                window.MathJax.typesetPromise().catch(function (err) {
+                    console.error('MathJax typeset failed: ' + err.message);
+                });
+            }
+        }
+
+        // Initialize everything when DOM is loaded
+        document.addEventListener('DOMContentLoaded', async () => {
+            initializeNavbar();
+            // Footer is already present in the page.
+            await fetchAndRenderSeries();
+            setTimeout(renderMathJax, 100);
+        });
+    </script>
+
+    <!-- MathJax Configuration -->
+    <script>
+        window.MathJax = {
+            loader: {
+                load: ['[tex]/mathtools']
+            },
+            tex: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ],
+                tags: 'ams',
+                displayMath: [
+                    ['$$', '$$'],
+                    ['\\[', '\\]']
+                ],
+                packages: { '[+]': ['mathtools'] }
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+
+    <!-- MathJax Script -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

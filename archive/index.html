@@ -10,7 +10,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo.png">
     <link rel="apple-touch-icon" href="/assets/logo.png">
     <link rel="shortcut icon" href="/assets/logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         .talk-card .content {
             max-width: 65%;
@@ -103,7 +102,6 @@
     <meta name="google-site-verification" content="j1eYMf5NSOfePEatQ6bxh-QUC9jJp-yGuhCeIRV55yU">
     <meta name="theme-color" content="#1e3a8a">
     <link rel="canonical" href="https://topogeoiiitd.github.io/archive/">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="alternate" type="application/rss+xml" title="Topology and Geometry Seminar feed" href="/feed.xml">
     <link rel="alternate" type="text/calendar" title="Topology and Geometry Seminar calendar" href="/calendar.ics">
@@ -114,9 +112,10 @@
     <meta property="og:url" content="https://topogeoiiitd.github.io/archive/">
     <meta property="og:image" content="https://topogeoiiitd.github.io/assets/logo.png">
     <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="/assets/site.css?v=169846d1e944">
-    <link rel="stylesheet" href="/assets/theme.css?v=169846d1e944">
-    <script src="/assets/theme.js?v=169846d1e944"></script>
+    <link rel="stylesheet" href="/assets/icons.css?v=b7353088dff0">
+    <link rel="stylesheet" href="/assets/site.css?v=b7353088dff0">
+    <link rel="stylesheet" href="/assets/theme.css?v=b7353088dff0">
+    <script src="/assets/theme.js?v=b7353088dff0"></script>
     
 </head>
 <body class="bg-gray-50 font-sans min-h-full flex flex-col">
@@ -953,6 +952,13 @@
                             <span class="group-hover:translate-x-1 transition">Archive</span>
                         </a>
 
+                        <a href="/schedule/#subscribe"
+                            class="footer-link group flex items-center space-x-2 text-slate-300 hover:text-cyan-300">
+                            <i class="fas fa-calendar-plus w-4 text-blue-400 group-hover:text-cyan-400"
+                                aria-hidden="true"></i>
+                            <span class="group-hover:translate-x-1 transition">Subscribe to Calendar</span>
+                        </a>
+
                         <a href="https://forms.gle/6RyaS3FkSeQ5PbyeA" target="_blank" rel="noopener noreferrer"
                             class="footer-link group flex items-center space-x-2 text-slate-300 hover:text-cyan-300">
                             <i class="fas fa-envelope w-4 text-blue-400 group-hover:text-cyan-400"
@@ -981,8 +987,8 @@
                             </a>
                         </p>
                         <p>
-                            <a href="mailto:aritra@ksom.res.in" class="text-cyan-300 hover:underline">
-                                aritra@ksom.res.in
+                            <a href="mailto:abhowmic@gitam.edu" class="text-cyan-300 hover:underline">
+                                abhowmic@gitam.edu
                             </a>
                         </p>
                     </div>
@@ -1035,24 +1041,6 @@
 </div>
 
     <script>
-        // Load navbar component
-        async function loadNavbar() {
-            try {
-                const response = await fetch('/components/navbar.html', { cache: 'no-store' });
-                const navbarHtml = await response.text();
-                document.getElementById('navbar-container').innerHTML = navbarHtml;
-                initializeNavbar();
-            } catch (error) {
-                console.error('Error loading navbar:', error);
-                document.getElementById('navbar-container').innerHTML = `
-                    <nav class="bg-blue-800 text-white shadow-lg fixed top-0 left-0 right-0 z-50">
-                        <div class="container mx-auto px-4 py-3">
-                            <h1 class="text-xl font-bold">Topology & Geometry Seminar</h1>
-                        </div>
-                    </nav>
-                `;
-            }
-        }
 
         function initializeNavbar() {
             const mobileMenuBtn = document.getElementById('mobile-menu-btn');
@@ -1063,37 +1051,6 @@
                     const isExpanded = mobileNav.classList.toggle('hidden');
                     mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
                 });
-            }
-        }
-
-        // Load footer component
-        async function loadFooter() {
-            try {
-                const response = await fetch('/components/footer.html', { cache: 'no-store' });
-                const footerHtml = await response.text();
-                document.getElementById('footer-container').innerHTML = footerHtml;
-            } catch (error) {
-                console.error('Error loading footer:', error);
-                document.getElementById('footer-container').innerHTML = `
-                <footer class="bg-blue-900 text-white py-8 mt-auto">
-                    <div class="container mx-auto px-4">
-                        <div class="flex flex-col md:flex-row justify-between">
-                            <div class="mb-6 md:mb-0">
-                                <h2 class="text-xl font-bold mb-2">Topology and Geometry Seminar</h2>
-                                <p>IIIT Delhi</p>
-                            </div>
-                            <div>
-                                <h3 class="text-lg font-semibold mb-2">Contact</h3>
-                                <p>Email: <a href="mailto:seminar@math.iiitd.ac.in"
-                                        class="text-blue-200 hover:underline">seminar@math.iiitd.ac.in</a></p>
-                            </div>
-                        </div>
-                        <div class="mt-8 pt-6 border-t border-blue-800 text-center text-sm text-blue-200">
-                            <p>© 2025 Topology and Geometry Seminar, IIIT Delhi. All rights reserved.</p>
-                        </div>
-                    </div>
-                </footer>
-            `;
             }
         }
 
@@ -1496,7 +1453,6 @@
 
         document.addEventListener('DOMContentLoaded', async () => {
             initializeNavbar();
-            // Footer is already present in the page.
             await fetchAndRenderArchive();
         });
     </script>
